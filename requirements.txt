@@ -1,0 +1,13 @@
+torch
+transformers
+datasets
+scikit-learn
+pandas
+jupyterlab
+huggingface_hub
+python-dotenv
+ipywidgets
+accelerate
+matplotlib
+seaborn
+sentence-transformers
