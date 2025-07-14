@@ -1,0 +1,24 @@
+services:
+  # ScheduleBOT+ Application
+  app:
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    container_name: schedulebot_app
+    ports:
+      - "7860:7860" # Expose Gradio's port
+    volumes:
+      - ./src:/app/src
+    env_file:
+      - .env
+    depends_on:
+      - duckling
+    restart: unless-stopped
+
+  # Duckling Service for Time/Date Extraction
+  duckling:
+    image: rasa/duckling:latest
+    container_name: duckling_service
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
