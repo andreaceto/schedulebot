@@ -1,29 +1,50 @@
 import os
+import json
+import joblib
+from sentence_transformers import SentenceTransformer
+from huggingface_hub import hf_hub_download
 from dotenv import load_dotenv
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-import torch
 
 
 class IntentClassifier:
-    def __init__(self, model_repo_id: str):
+    def __init__(self, repo_id: str):
         """
-        Loads the fine-tuned model and tokenizer from the Hugging Face Hub.
+        Loads the KNN classifier and its artifacts from a Hugging Face Hub repository.
+
+        Args:
+            repo_id (str): The ID of the repository on the Hub (e.g., 'username/repo-name').
         """
-        self.tokenizer = AutoTokenizer.from_pretrained(model_repo_id)
-        self.model = AutoModelForSequenceClassification.from_pretrained(model_repo_id)
-        self.id_to_label = self.model.config.id2label
+        # Ensure the HF_TOKEN is available if the repo is private
+        # For public repos, this is not strictly necessary but good practice
+        hf_token = os.getenv("HF_TOKEN")
+
+        # 1. Download the artifacts from the Hub.
+        #    hf_hub_download returns the local path to the cached file.
+        knn_model_path = hf_hub_download(
+            repo_id=repo_id, filename="knn_model.joblib", token=hf_token
+        )
+        id2label_path = hf_hub_download(
+            repo_id=repo_id, filename="id2label.json", token=hf_token
+        )
+
+        # 2. Load the Sentence Transformer model
+        self.embedding_model = SentenceTransformer(
+            "sentence-transformers/all-MiniLM-L6-v2"
+        )
+
+        # 3. Load the downloaded KNN model and label mapping
+        self.knn = joblib.load(knn_model_path)
+        with open(id2label_path, "r") as f:
+            self.id_to_label = {int(k): v for k, v in json.load(f).items()}
 
     def predict(self, text: str) -> str:
         """
-        Predicts the intent for a given text string.
+        Predicts the intent for a given text string using embeddings and KNN.
         """
-        inputs = self.tokenizer(
-            text, return_tensors="pt", padding=True, truncation=True
-        )
-        with torch.no_grad():
-            logits = self.model(**inputs).logits
-
-        predicted_class_id = torch.argmax(logits, dim=1).item()
+        text_embedding = self.embedding_model.encode(
+            text, convert_to_tensor=False
+        ).reshape(1, -1)
+        predicted_class_id = self.knn.predict(text_embedding)[0]
         return self.id_to_label[predicted_class_id]
 
 
@@ -31,7 +52,7 @@ if __name__ == "__main__":
     # Load the model from the Hub
     load_dotenv()
     model_repo_id = os.getenv("HUB_MODEL_ID")
-    classifier = IntentClassifier(model_repo_id=model_repo_id)
+    classifier = IntentClassifier(repo_id=model_repo_id)
 
     # Tests
     text1 = "I want to schedule a meeting with John for next Tuesday"
