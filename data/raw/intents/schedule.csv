@@ -1,0 +1,140 @@
+text,intent
+"I need to make an appointment.",schedule
+"Can I schedule a meeting?",schedule
+"I'd like to book a time slot.",schedule
+"I want to schedule something.",schedule
+"Set up a meeting.",schedule
+"I'd like to book an appointment.",schedule
+"Is it possible to schedule a session?",schedule
+"Book an appointment for me.",schedule
+"I need to talk to my advisor.",schedule
+"Let's set up a time to connect.",schedule
+"Arrange a meeting, please.",schedule
+"I want to book a session.",schedule
+"Can you help me schedule something?",schedule
+"Book a new appointment.",schedule
+"Create a new meeting.",schedule
+"I'd like to get on the calendar.",schedule
+"Book me in.",schedule
+"Need to schedule.",schedule
+"I want to meet.",schedule
+"Find an open slot for me.",schedule
+"I'd like to set a meeting time.",schedule
+"Please schedule a new appointment for me.",schedule
+"Time for a meeting.",schedule
+"Need to book a slot.",schedule
+"Let's arrange a chat.",schedule
+"I need to set up a quick chat.",schedule
+"Book a time slot.",schedule
+"Can I get an appointment?",schedule
+"I need to meet with {practitioner_name}.",schedule
+"Schedule me with {practitioner_name}.",schedule
+"Book a meeting with {practitioner_name}.",schedule
+"Can I see {practitioner_name}?",schedule
+"I'd like to talk to {practitioner_name}.",schedule
+"Set up a meeting with {practitioner_name}.",schedule
+"I want to schedule a meeting with {practitioner_name}.",schedule
+"Arrange a meeting with {practitioner_name}.",schedule
+"Need to speak to {practitioner_name}.",schedule
+"Book me with {practitioner_name}.",schedule
+"Let's schedule with {practitioner_name}.",schedule
+"Get me on {practitioner_name}'s schedule.",schedule
+"I need an appointment with {practitioner_name}.",schedule
+"Please book a meeting with {practitioner_name}.",schedule
+"I need some time with {practitioner_name}.",schedule
+"Talk to {practitioner_name}.",schedule
+"Book {practitioner_name}.",schedule
+"I need to see {practitioner_name}.",schedule
+"Can I get on {practitioner_name}'s calendar?",schedule
+"Set a meeting with {practitioner_name}.",schedule
+"I want to book time with {practitioner_name}.",schedule
+"{practitioner_name} appointment.",schedule
+"Schedule something with {practitioner_name}.",schedule
+"I must speak with {practitioner_name}.",schedule
+"Time with {practitioner_name}.",schedule
+"I require a meeting with {practitioner_name}.",schedule
+"I need to book a {appointment_type}.",schedule
+"Schedule a {appointment_type}.",schedule
+"I want to set up a {appointment_type}.",schedule
+"Can I make an appointment for a {appointment_type}?",schedule
+"Book me in for a {appointment_type}.",schedule
+"I'd like to schedule a {appointment_type}.",schedule
+"New {appointment_type}.",schedule
+"I want to arrange a {appointment_type}.",schedule
+"Find time for a {appointment_type}.",schedule
+"Book a {appointment_type}, please.",schedule
+"I need a {appointment_type} slot.",schedule
+"Let's schedule a {appointment_type}.",schedule
+"I need an {appointment_type}.",schedule
+"Is there availability for a {appointment_type}?",schedule
+"Book {appointment_type}.",schedule
+"I'd like to book a {appointment_type} for next week.",schedule
+"Can you schedule a {appointment_type} for me?",schedule
+"I need to have a {appointment_type}.",schedule
+"Help me book a {appointment_type}.",schedule
+"{appointment_type} booking.",schedule
+"I'm looking to schedule a {appointment_type}.",schedule
+"I need to do a {appointment_type}.",schedule
+"Set up {appointment_type}.",schedule
+"I want to get a {appointment_type} on the books.",schedule
+"Please book a {appointment_type}.",schedule
+"I'd like to have a {appointment_type}.",schedule
+"Find an open slot for a {appointment_type}.",schedule
+"Schedule my {appointment_type}.",schedule
+"Need to book a {appointment_type} soon.",schedule
+"Arrange a {appointment_type} for me.",schedule
+"I need to book a {appointment_type} with {practitioner_name}.",schedule
+"Schedule a {appointment_type} with {practitioner_name}.",schedule
+"Can I get a {appointment_type} with {practitioner_name}?",schedule
+"I'd like to set up a {appointment_type} with {practitioner_name}.",schedule
+"Book a {appointment_type} with {practitioner_name}, please.",schedule
+"I want to schedule a {appointment_type} with {practitioner_name}.",schedule
+"New {appointment_type} with {practitioner_name}.",schedule
+"Arrange a {appointment_type} with professor {practitioner_name}.",schedule
+"I need a {appointment_type} with my advisor, {practitioner_name}.",schedule
+"I want to book {practitioner_name} for a {appointment_type}.",schedule
+"Let's schedule a {appointment_type} with {practitioner_name}.",schedule
+"Can I book {practitioner_name} for a {appointment_type} next Monday?",schedule
+"Help me book a {appointment_type} with {practitioner_name}.",schedule
+"{appointment_type} with {practitioner_name}.",schedule
+"I'm looking to schedule a {appointment_type} with {practitioner_name}.",schedule
+"Set up {appointment_type} with {practitioner_name}.",schedule
+"I require a {appointment_type} with {practitioner_name}.",schedule
+"Book me for a {appointment_type} with {practitioner_name}.",schedule
+"I'd like to book {practitioner_name} for a {appointment_type}.",schedule
+"{practitioner_name} {appointment_type} booking.",schedule
+"I must have a {appointment_type} with {practitioner_name} this week.",schedule
+"Schedule {practitioner_name} for a {appointment_type}.",schedule
+"Book {practitioner_name} {appointment_type}.",schedule
+"I need to schedule a {appointment_type} for my project with {practitioner_name}.",schedule
+"Time for a {appointment_type} with {practitioner_name}.",schedule
+"I need to talk to {practitioner_name} for a {appointment_type}.",schedule
+"Is {practitioner_name} free for a {appointment_type}?",schedule
+"I want to meet {practitioner_name} for a {appointment_type}.",schedule
+"Book a {appointment_type} with {practitioner_name} as soon as possible.",schedule
+"I want a {appointment_type} with {practitioner_name}.",schedule
+"{practitioner_name}'s {appointment_type}.",schedule
+"I would like to arrange a {appointment_type} with {practitioner_name}.",schedule
+"I need an appointment with {practitioner_name} for a {appointment_type}.",schedule
+"Find me a time for a {appointment_type} with {practitioner_name}.",schedule
+"Let's book a {appointment_type} with {practitioner_name} for this Friday.",schedule
+"Can you put a {appointment_type} on the calendar with {practitioner_name}?",schedule
+"Get me a {appointment_type} with {practitioner_name}.",schedule
+"I need to arrange a {appointment_type} with {practitioner_name} urgently.",schedule
+"Book a lab session with {practitioner_name}.",schedule
+"I need to schedule my thesis defense with {practitioner_name}.",schedule
+"Set up office hours with {practitioner_name}.",schedule
+"Can I schedule a project meeting with {practitioner_name}?",schedule
+"I need to book an advising session.",schedule
+"Schedule my oral exam.",schedule
+"Book office hours.",schedule
+"I need to see {practitioner_name} about my grades.",schedule
+"Set up a tutorial with {practitioner_name}.",schedule
+"I need to book a time to discuss my dissertation with {practitioner_name}.",schedule
+"Can we schedule a group meeting with {practitioner_name}?",schedule
+"I'd like to book a consultation.",schedule
+"Schedule a {appointment_type} for my group with {practitioner_name}.",schedule
+"Book a meeting about my final project.",schedule
+"I need a one-on-one with {practitioner_name}.",schedule
+"Let's schedule a call with {practitioner_name}.",schedule
+"Arrange a review session with {practitioner_name}.",schedule

@@ -1,0 +1,143 @@
+text,intent
+"I need to cancel my appointment.",cancel
+"Please cancel my upcoming meeting.",cancel
+"I want to cancel an appointment.",cancel
+"I need to delete a scheduled meeting.",cancel
+"I can't make my appointment, please cancel it.",cancel
+"I won't be needing my appointment anymore.",cancel
+"Cancel my booking.",cancel
+"I'd like to cancel.",cancel
+"Remove my appointment from the calendar.",cancel
+"I need to cancel something.",cancel
+"Please void my scheduled session.",cancel
+"I have to cancel.",cancel
+"Cancel my scheduled time.",cancel
+"My plans have changed and I need to cancel.",cancel
+"I won't be able to attend, so please cancel.",cancel
+"Scrub my appointment.",cancel
+"The appointment is no longer needed.",cancel
+"Please cancel my reservation.",cancel
+"I'd like to request a cancellation.",cancel
+"Delete the appointment.",cancel
+"I have to cancel my meeting.",cancel
+"Drop my appointment.",cancel
+"I need to cancel an existing booking.",cancel
+"Cancel it.",cancel
+"I am writing to cancel my appointment.",cancel
+"Please cancel my appointment with ID {appointment_id}.",cancel
+"I need to cancel booking {appointment_id}.",cancel
+"Cancel appointment {appointment_id}.",cancel
+"I want to cancel the meeting with reference {appointment_id}.",cancel
+"Delete my appointment, ID is {appointment_id}.",cancel
+"Please remove booking {appointment_id} from the schedule.",cancel
+"I'd like to cancel {appointment_id}.",cancel
+"Cancel {appointment_id}.",cancel
+"My appointment, {appointment_id}, needs to be cancelled.",cancel
+"I am cancelling my booking with the ID {appointment_id}.",cancel
+"Regarding appointment {appointment_id}, I want to cancel.",cancel
+"I need to cancel the appointment with confirmation number {appointment_id}.",cancel
+"Please process a cancellation for {appointment_id}.",cancel
+"I will not be attending my meeting, ID {appointment_id}, please cancel.",cancel
+"The meeting {appointment_id} is cancelled.",cancel
+"I must cancel appointment {appointment_id}.",cancel
+"Get rid of appointment {appointment_id}.",cancel
+"Void my booking: {appointment_id}.",cancel
+"Please confirm cancellation for {appointment_id}.",cancel
+"I'm cancelling {appointment_id}.",cancel
+"I need to cancel my meeting with {practitioner_name}.",cancel
+"Please cancel my {appointment_type}.",cancel
+"I want to cancel my {appointment_type} with {practitioner_name}.",cancel
+"I no longer need my advising session with {practitioner_name}.",cancel
+"Delete my upcoming {appointment_type}.",cancel
+"Cancel my meeting with Professor {practitioner_name}.",cancel
+"I'd like to cancel my project meeting.",cancel
+"Please remove the {appointment_type} with {practitioner_name} from my schedule.",cancel
+"Cancel my office hours appointment with {practitioner_name}.",cancel
+"The {appointment_type} with {practitioner_name} is no longer necessary.",cancel
+"I need to cancel my thesis discussion.",cancel
+"I'm cancelling my tutorial session.",cancel
+"Cancel my lab session with {practitioner_name}.",cancel
+"I'd like to cancel the meeting I have with {practitioner_name}.",cancel
+"Please cancel my upcoming {appointment_type}.",cancel
+"I need to drop my {appointment_type} with {practitioner_name}.",cancel
+"I have an {appointment_type} with {practitioner_name} that I need to cancel.",cancel
+"Cancel the advising session.",cancel
+"I will not be attending my {appointment_type} with {practitioner_name}.",cancel
+"The meeting with {practitioner_name} can be cancelled.",cancel
+"I need to cancel my consultation with {practitioner_name}.",cancel
+"Please cancel my {appointment_type} this Friday.",cancel
+"I want to cancel my appointment with {practitioner_name}.",cancel
+"My {appointment_type} with {practitioner_name} needs to be cancelled.",cancel
+"I have to cancel my {appointment_type} appointment.",cancel
+"Cancel my one-on-one with {practitioner_name}.",cancel
+"Please cancel my {appointment_type} with {practitioner_name}.",cancel
+"I must cancel my {appointment_type} with {practitioner_name}.",cancel
+"Please cancel my {appointment_type} with {practitioner_name}, ID is {appointment_id}.",cancel
+"I want to cancel my {appointment_type}, appointment ID {appointment_id}.",cancel
+"Delete my {appointment_type} with {practitioner_name}, booking ref {appointment_id}.",cancel
+"I need to cancel my {appointment_type} with {practitioner_name} (ID: {appointment_id}).",cancel
+"My appointment {appointment_id}, a {appointment_type} with {practitioner_name}, must be cancelled.",cancel
+"Cancel booking {appointment_id}, my {appointment_type} with {practitioner_name}.",cancel
+"I am cancelling my {appointment_type} (ID {appointment_id}) with {practitioner_name}.",cancel
+"I would like to cancel my {appointment_type} with {practitioner_name}. The ID is {appointment_id}.",cancel
+"Please remove my {appointment_type} with {practitioner_name}, reference {appointment_id}.",cancel
+"My apologies, but I must cancel my {appointment_type} with {practitioner_name}, ID {appointment_id}.",cancel
+"This is a cancellation request for my {appointment_type} (ID: {appointment_id}) with {practitioner_name}.",cancel
+"Please delete appointment {appointment_id}, my {appointment_type} with Professor {practitioner_name}.",cancel
+"I need to cancel the {appointment_type} with {practitioner_name}. The booking number is {appointment_id}.",cancel
+"Cancel the meeting with {practitioner_name} regarding my thesis, ID {appointment_id}.",cancel
+"The lab session with {practitioner_name}, booking {appointment_id}, needs to be cancelled.",cancel
+"I'm writing to inform you of the cancellation of my {appointment_type} with {practitioner_name}, ID {appointment_id}.",cancel
+"Please confirm the cancellation of booking {appointment_id}, my {appointment_type}.",cancel
+"The meeting with {practitioner_name} (ref {appointment_id}) is no longer required.",cancel
+"I'm unable to make it to my {appointment_type} with {practitioner_name}, so please cancel it. It's ID {appointment_id}.",cancel
+"I have to cancel appointment {appointment_id} with {practitioner_name}.",cancel
+"Can you cancel my appointment?",cancel
+"Delete my booking.",cancel
+"I won't make it, so please cancel.",cancel
+"I'm afraid I have to cancel my meeting.",cancel
+"Due to unforeseen circumstances, I have to cancel appointment {appointment_id}.",cancel
+"I'm cancelling the meeting with {practitioner_name}.",cancel
+"Please cancel the {appointment_type} on my schedule.",cancel
+"The booking {appointment_id} can be removed.",cancel
+"I no longer require the meeting with {practitioner_name}.",cancel
+"My situation has changed, I need to cancel my {appointment_type}.",cancel
+"Cancel the appointment for me.",cancel
+"I need to cancel my meeting with {practitioner_name} on Tuesday.",cancel
+"Please take my {appointment_type} off the schedule.",cancel
+"Cancel my appointment with booking reference {appointment_id}.",cancel
+"This is a cancellation for my appointment with {practitioner_name}.",cancel
+"I have to pull out of my {appointment_type}.",cancel
+"Please accept my apologies, but I must cancel my meeting.",cancel
+"I need to cancel my booking, number {appointment_id}.",cancel
+"Remove the {appointment_type} with {practitioner_name} from my calendar.",cancel
+"I need to cancel a meeting, ID {appointment_id}.",cancel
+"I am no longer available for my {appointment_type} with {practitioner_name}.",cancel
+"Please cancel my appointment for the {appointment_type}.",cancel
+"I will not be able to attend my scheduled meeting, ID {appointment_id}.",cancel
+"I'd like to cancel my reservation with {practitioner_name}.",cancel
+"Cancel my {appointment_type} with {practitioner_name}, please.",cancel
+"I'm sorry, but I have to cancel my appointment.",cancel
+"Let's cancel the meeting with ID {appointment_id}.",cancel
+"I'm formally cancelling my {appointment_type}.",cancel
+"The appointment with {practitioner_name} is no longer needed.",cancel
+"I can't make the meeting with {practitioner_name}, so I'm cancelling.",cancel
+"Please cancel my attendance for the {appointment_type}.",cancel
+"I must cancel booking {appointment_id}.",cancel
+"I'm cancelling my consultation with {practitioner_name}.",cancel
+"Please cancel my appointment regarding my project with {practitioner_name}.",cancel
+"Delete booking {appointment_id} from the system.",cancel
+"I have to cancel the {appointment_type} with {practitioner_name}.",cancel
+"This serves as a notification to cancel my appointment {appointment_id}.",cancel
+"I won't be there, please cancel my meeting.",cancel
+"I need to cancel my appointment {appointment_id} with {practitioner_name}.",cancel
+"Cancel all my appointments with {practitioner_name}.",cancel
+"I need to cancel my defense rehearsal.",cancel
+"Please cancel my appointment, ref {appointment_id}.",cancel
+"My {appointment_type}, booking {appointment_id}, with {practitioner_name} is cancelled.",cancel
+"I will not be coming to my appointment with {practitioner_name}.",cancel
+"I'm cancelling. The ID is {appointment_id}.",cancel
+"Cancel my upcoming session.",cancel
+"Please proceed with cancelling my appointment with {practitioner_name}.",cancel
+"I need to cancel my meeting about my thesis.",cancel
+"The project meeting with {practitioner_name}, ID {appointment_id}, should be cancelled.",cancel
