@@ -1,0 +1,400 @@
+{"text":"see ya!","intent":"bye","entities":[]}
+{"text":"does my credit card have a balance transfer promotions currently going on","intent":"oos","entities":[]}
+{"text":"what's happening","intent":"greeting","entities":[]}
+{"text":"sorry, that is not true","intent":"negative_reply","entities":[]}
+{"text":"where's my buddy steve right this second","intent":"oos","entities":[]}
+{"text":"De Angelis's calendar for a independent study meeting next month.","intent":"query_avail","entities":[{"start":0,"end":10,"label":"practitioner_name"},{"start":28,"end":53,"label":"appointment_type"}]}
+{"text":"do the romans still use the colosseum for anything today","intent":"oos","entities":[]}
+{"text":"how do i add someone to my account","intent":"oos","entities":[]}
+{"text":"ai is a helpful item to have in my home, thank you","intent":"positive_reply","entities":[]}
+{"text":"i appreciate your help","intent":"positive_reply","entities":[]}
+{"text":"I can't make the meeting with Bianchi, so I'm cancelling.","intent":"cancel","entities":[{"start":30,"end":37,"label":"practitioner_name"}]}
+{"text":"create a portrait for me using post modern art","intent":"oos","entities":[]}
+{"text":"that would be false","intent":"negative_reply","entities":[]}
+{"text":"when is the next nintendo direct","intent":"oos","entities":[]}
+{"text":"Please schedule a new appointment for me.","intent":"schedule","entities":[]}
+{"text":"is it difficult to learn a semitic language","intent":"oos","entities":[]}
+{"text":"thanks for letting me know","intent":"positive_reply","entities":[]}
+{"text":"i'm grateful","intent":"positive_reply","entities":[]}
+{"text":"add mary to my phone plan, please","intent":"oos","entities":[]}
+{"text":"approved","intent":"positive_reply","entities":[]}
+{"text":"I need some time with Prof. Bennett.","intent":"schedule","entities":[{"start":22,"end":35,"label":"practitioner_name"}]}
+{"text":"does cutting down the rain forest really add to global warming","intent":"oos","entities":[]}
+{"text":"look up how to apply cream to smooth itchiness","intent":"oos","entities":[]}
+{"text":"who were the superbowl 23 champions","intent":"oos","entities":[]}
+{"text":"what's the first romantic movie ever made","intent":"oos","entities":[]}
+{"text":"Display calendar.","intent":"query_avail","entities":[]}
+{"text":"are androids expensive","intent":"oos","entities":[]}
+{"text":"what is the safest model of airplane to fly in","intent":"oos","entities":[]}
+{"text":"where can i find cheap rental skis nearby","intent":"oos","entities":[]}
+{"text":"I need to reschedule my appointment, the ID is #469066.","intent":"reschedule","entities":[{"start":47,"end":54,"label":"appointment_id"}]}
+{"text":"syonara, ai device!","intent":"bye","entities":[]}
+{"text":"thank you for your time and trying to help","intent":"positive_reply","entities":[]}
+{"text":"what are popular lifestyle magazines","intent":"oos","entities":[]}
+{"text":"how can i get help for my mental health","intent":"oos","entities":[]}
+{"text":"when was the last worker's strike in amsterdam","intent":"oos","entities":[]}
+{"text":"how many years do you need to be in the army to get a college tuition","intent":"oos","entities":[]}
+{"text":"how many people are jobless in america","intent":"oos","entities":[]}
+{"text":"is anything being newscasted about the threat of famine in chadu","intent":"oos","entities":[]}
+{"text":"how is glue made","intent":"oos","entities":[]}
+{"text":"i wish you were here earlier","intent":"positive_reply","entities":[]}
+{"text":"would you let me know who won the gold metal in gymnastics at the olympics","intent":"oos","entities":[]}
+{"text":"hey there, how are you today","intent":"greeting","entities":[]}
+{"text":"search up the cast in the walking dead","intent":"oos","entities":[]}
+{"text":"i want to buy some nintendo switch game","intent":"oos","entities":[]}
+{"text":"tell me a list of my local papers","intent":"oos","entities":[]}
+{"text":"what month are mosquitoes the worst in the united states","intent":"oos","entities":[]}
+{"text":"what do i put on my feet","intent":"oos","entities":[]}
+{"text":"how many people live in vermillion","intent":"oos","entities":[]}
+{"text":"no that isn't it","intent":"negative_reply","entities":[]}
+{"text":"thanks for talking to me","intent":"bye","entities":[]}
+{"text":"can you check my privacy online settting","intent":"oos","entities":[]}
+{"text":"tell me a scary story","intent":"oos","entities":[]}
+{"text":"I need to change my ultrasound with Stewart, ID is #602594.","intent":"reschedule","entities":[{"start":20,"end":30,"label":"appointment_type"},{"start":36,"end":43,"label":"practitioner_name"},{"start":51,"end":58,"label":"appointment_id"}]}
+{"text":"how do i change my flight","intent":"oos","entities":[]}
+{"text":"nope that's not it","intent":"negative_reply","entities":[]}
+{"text":"List all free times for a course planning with Messina.","intent":"query_avail","entities":[{"start":26,"end":41,"label":"appointment_type"},{"start":47,"end":54,"label":"practitioner_name"}]}
+{"text":"I am cancelling my booking with the ID #421656.","intent":"cancel","entities":[{"start":39,"end":46,"label":"appointment_id"}]}
+{"text":"look up the email address of the local police","intent":"oos","entities":[]}
+{"text":"you did a good job thank you","intent":"positive_reply","entities":[]}
+{"text":"Availability on July 21st.","intent":"query_avail","entities":[]}
+{"text":"Display the schedule of Mrs. Evans.","intent":"query_avail","entities":[{"start":24,"end":34,"label":"practitioner_name"}]}
+{"text":"how have you been","intent":"greeting","entities":[]}
+{"text":"you've been a big help","intent":"positive_reply","entities":[]}
+{"text":"how are things going for you","intent":"greeting","entities":[]}
+{"text":"what does it mean to join the occult","intent":"oos","entities":[]}
+{"text":"give me information about the element carbon and its reactions with hydrogen","intent":"oos","entities":[]}
+{"text":"what are the lowest prices of bottled water at costco","intent":"oos","entities":[]}
+{"text":"check and see what the local news in broadcasting","intent":"oos","entities":[]}
+{"text":"at what age can someone get a card","intent":"oos","entities":[]}
+{"text":"mental health counseling with Professor Emily Clark.","intent":"schedule","entities":[{"start":0,"end":24,"label":"appointment_type"},{"start":30,"end":51,"label":"practitioner_name"}]}
+{"text":"I need to schedule a consultation for my project with Professor Fontana.","intent":"schedule","entities":[{"start":21,"end":33,"label":"appointment_type"},{"start":54,"end":71,"label":"practitioner_name"}]}
+{"text":"Availability for this week.","intent":"query_avail","entities":[]}
+{"text":"Times available to book.","intent":"query_avail","entities":[]}
+{"text":"what is the most famous quote on the internet","intent":"oos","entities":[]}
+{"text":"check battery health on this device","intent":"oos","entities":[]}
+{"text":"how many countries in the world are democracies","intent":"oos","entities":[]}
+{"text":"can you store a gun in a safe deposit box","intent":"oos","entities":[]}
+{"text":"I need to see Lombardi.","intent":"schedule","entities":[{"start":14,"end":22,"label":"practitioner_name"}]}
+{"text":"are indians nowadays reminiscent of a decade ago","intent":"oos","entities":[]}
+{"text":"are you able to answer algebra equations","intent":"oos","entities":[]}
+{"text":"can you check how many miles i walked today when i was out get the info from my phone","intent":"oos","entities":[]}
+{"text":"thanks for that answer","intent":"positive_reply","entities":[]}
+{"text":"how many firewalls should i have and what type","intent":"oos","entities":[]}
+{"text":"I need to change my lab session.","intent":"reschedule","entities":[]}
+{"text":"thank you for the answer","intent":"positive_reply","entities":[]}
+{"text":"the information is wrong","intent":"negative_reply","entities":[]}
+{"text":"Professor Hill's free times.","intent":"query_avail","entities":[{"start":10,"end":14,"label":"practitioner_name"}]}
+{"text":"is it worth investing in target","intent":"oos","entities":[]}
+{"text":"it was pleasant conversing with you","intent":"bye","entities":[]}
+{"text":"I want to cancel my vaccination, appointment ID #887108.","intent":"cancel","entities":[{"start":20,"end":31,"label":"appointment_type"},{"start":48,"end":55,"label":"appointment_id"}]}
+{"text":"does our bank have free notary","intent":"oos","entities":[]}
+{"text":"how does a optical mouse work","intent":"oos","entities":[]}
+{"text":"when was the last time the president visited floridau","intent":"oos","entities":[]}
+{"text":"merci beaucoup","intent":"positive_reply","entities":[]}
+{"text":"Show openings for a office hours this Friday.","intent":"query_avail","entities":[{"start":20,"end":32,"label":"appointment_type"}]}
+{"text":"thank you for answering that","intent":"positive_reply","entities":[]}
+{"text":"I must speak with Pellegrini.","intent":"schedule","entities":[{"start":18,"end":28,"label":"practitioner_name"}]}
+{"text":"Can I bring my appointment forward?","intent":"reschedule","entities":[]}
+{"text":"Show the free slots on the calendar.","intent":"query_avail","entities":[]}
+{"text":"i'd like to know how you are doing","intent":"greeting","entities":[]}
+{"text":"negatory","intent":"negative_reply","entities":[]}
+{"text":"what were some of ben franklin's notable accomplishments","intent":"oos","entities":[]}
+{"text":"what is a good chemistry experiment to learn from","intent":"oos","entities":[]}
+{"text":"how do i get rid of sore throat at home","intent":"oos","entities":[]}
+{"text":"find me a good band instructor or two to compare in my area","intent":"oos","entities":[]}
+{"text":"how do you treat an iron skillet","intent":"oos","entities":[]}
+{"text":"how can i improve my golf swing","intent":"oos","entities":[]}
+{"text":"no!","intent":"negative_reply","entities":[]}
+{"text":"find the names of all the rain forests located in south america","intent":"oos","entities":[]}
+{"text":"you are so thoughtful and i appreciate your gesture","intent":"positive_reply","entities":[]}
+{"text":"What are Evans's office hours.","intent":"query_avail","entities":[{"start":9,"end":14,"label":"practitioner_name"}]}
+{"text":"Display free times.","intent":"query_avail","entities":[]}
+{"text":"how old is the oldest person that is in the guiness book of world records","intent":"oos","entities":[]}
+{"text":"yeah that's right, so true","intent":"positive_reply","entities":[]}
+{"text":"well hello","intent":"greeting","entities":[]}
+{"text":"may i finish washing then i give you please","intent":"oos","entities":[]}
+{"text":"can you enable subtitles","intent":"oos","entities":[]}
+{"text":"renew gym membership","intent":"oos","entities":[]}
+{"text":"hello there, good morning","intent":"greeting","entities":[]}
+{"text":"I need to change the time of appointment #982571.","intent":"reschedule","entities":[{"start":41,"end":48,"label":"appointment_id"}]}
+{"text":"show me the new york times most popular book list for this week","intent":"oos","entities":[]}
+{"text":"good answer, thanks for providing it","intent":"positive_reply","entities":[]}
+{"text":"Cancel my one-on-one with Professor Sala.","intent":"cancel","entities":[{"start":26,"end":40,"label":"practitioner_name"}]}
+{"text":"where did abraham lincoln live","intent":"oos","entities":[]}
+{"text":"find out for me as to why people get autism","intent":"oos","entities":[]}
+{"text":"what is the current price of tsla","intent":"oos","entities":[]}
+{"text":"Cancel #810445.","intent":"cancel","entities":[{"start":7,"end":14,"label":"appointment_id"}]}
+{"text":"Please cancel the lab cleanup on my schedule.","intent":"cancel","entities":[{"start":18,"end":29,"label":"appointment_type"}]}
+{"text":"help me find a new position as a programmer","intent":"oos","entities":[]}
+{"text":"yes sir","intent":"positive_reply","entities":[]}
+{"text":"how many calories does doing 20 situps burn","intent":"oos","entities":[]}
+{"text":"scan my photos and tell me which hair style is most suiting for my face","intent":"oos","entities":[]}
+{"text":"please read the text message i just received","intent":"oos","entities":[]}
+{"text":"i am looking for a suit for work","intent":"oos","entities":[]}
+{"text":"what were the top stories this week","intent":"oos","entities":[]}
+{"text":"I want to book Prof. Müller for a faculty candidate interview.","intent":"schedule","entities":[{"start":15,"end":27,"label":"practitioner_name"},{"start":34,"end":61,"label":"appointment_type"}]}
+{"text":"in what movie did mrs congeniality feature a contestant championing for world peace","intent":"oos","entities":[]}
+{"text":"goodbye for now ai","intent":"bye","entities":[]}
+{"text":"send me a quote from a motivational speaker twice a day","intent":"oos","entities":[]}
+{"text":"please get me my wheelchair","intent":"oos","entities":[]}
+{"text":"I can't make my appointment, please cancel it.","intent":"cancel","entities":[]}
+{"text":"I would like to change my appointment, ID #695831.","intent":"reschedule","entities":[{"start":42,"end":49,"label":"appointment_id"}]}
+{"text":"how do i change my windshield wipers","intent":"oos","entities":[]}
+{"text":"i owe you one","intent":"positive_reply","entities":[]}
+{"text":"Find new time for #758262.","intent":"reschedule","entities":[{"start":18,"end":25,"label":"appointment_id"}]}
+{"text":"what are the top rated universities within my state","intent":"oos","entities":[]}
+{"text":"Let's move my scheduled meeting.","intent":"reschedule","entities":[]}
+{"text":"are the schools closed","intent":"oos","entities":[]}
+{"text":"look on amazon for the price of a nitendo switch","intent":"oos","entities":[]}
+{"text":"nay","intent":"negative_reply","entities":[]}
+{"text":"i'd like to hire someone to wash my car","intent":"oos","entities":[]}
+{"text":"will amazon ship an order even if there was a pricing mistake","intent":"oos","entities":[]}
+{"text":"is the stock market up or down today","intent":"oos","entities":[]}
+{"text":"find a credit mentoring service number for me please","intent":"oos","entities":[]}
+{"text":"positive","intent":"positive_reply","entities":[]}
+{"text":"are there any apartments for rent nearby","intent":"oos","entities":[]}
+{"text":"what movie is it that says today is a good day to die","intent":"oos","entities":[]}
+{"text":"Need to schedule.","intent":"schedule","entities":[]}
+{"text":"Need to book a thesis proposal meeting soon.","intent":"schedule","entities":[{"start":15,"end":38,"label":"appointment_type"}]}
+{"text":"thanks, that's helpful","intent":"positive_reply","entities":[]}
+{"text":"what are the new player rankings for the nhl","intent":"oos","entities":[]}
+{"text":"see you later, alligator","intent":"bye","entities":[]}
+{"text":"that's not what i want!","intent":"negative_reply","entities":[]}
+{"text":"Can I get a different time for my meeting with Prof. Dubois?","intent":"reschedule","entities":[{"start":47,"end":59,"label":"practitioner_name"}]}
+{"text":"I have a conflict with my current appointment time.","intent":"reschedule","entities":[]}
+{"text":"it is good to see you","intent":"greeting","entities":[]}
+{"text":"look up the current auto loan rate at chase bank","intent":"oos","entities":[]}
+{"text":"should i do a complete stop at red lights","intent":"oos","entities":[]}
+{"text":"list the contents of my safety deposit box at the bank","intent":"oos","entities":[]}
+{"text":"my response to that is yes","intent":"positive_reply","entities":[]}
+{"text":"I have an alumni interview with Prof. Garcia that I need to cancel.","intent":"cancel","entities":[{"start":10,"end":26,"label":"appointment_type"},{"start":32,"end":44,"label":"practitioner_name"}]}
+{"text":"that's totally wrong!","intent":"negative_reply","entities":[]}
+{"text":"i would like to upgrade to full coverage for my car","intent":"oos","entities":[]}
+{"text":"how much is 1 share of aapl","intent":"oos","entities":[]}
+{"text":"find directions to the sunshine car wash from my house","intent":"oos","entities":[]}
+{"text":"when was toyota created","intent":"oos","entities":[]}
+{"text":"that's right","intent":"positive_reply","entities":[]}
+{"text":"how would you rate the airport i am traveling to","intent":"oos","entities":[]}
+{"text":"Can I make an appointment for a presentation rehearsal?","intent":"schedule","entities":[{"start":32,"end":54,"label":"appointment_type"}]}
+{"text":"how do you feel","intent":"greeting","entities":[]}
+{"text":"how much does it cost to use the parking garage downtown","intent":"oos","entities":[]}
+{"text":"I have to move my #256732 appointment.","intent":"reschedule","entities":[{"start":18,"end":25,"label":"appointment_id"}]}
+{"text":"show me what one should do to get ahead in a tech corporation","intent":"oos","entities":[]}
+{"text":"see if you can purchase a spacesuit online","intent":"oos","entities":[]}
+{"text":"can you check how many steps i have walked in the last week from my phone app","intent":"oos","entities":[]}
+{"text":"give me a list of the top 5 issues people have in this country","intent":"oos","entities":[]}
+{"text":"regards","intent":"bye","entities":[]}
+{"text":"adios!","intent":"bye","entities":[]}
+{"text":"Display Ms. Cooper's free times.","intent":"query_avail","entities":[{"start":8,"end":18,"label":"practitioner_name"}]}
+{"text":"make a list of side hustles i could start today to make a little extra cash","intent":"oos","entities":[]}
+{"text":"how are things","intent":"greeting","entities":[]}
+{"text":"hello there","intent":"greeting","entities":[]}
+{"text":"that's inaccurate","intent":"negative_reply","entities":[]}
+{"text":"make a list of all community gardens near me","intent":"oos","entities":[]}
+{"text":"how do i make my android phone more secure","intent":"oos","entities":[]}
+{"text":"how do you make sure a bridge doesn't fall down","intent":"oos","entities":[]}
+{"text":"compile a folder of paintings of sparta","intent":"oos","entities":[]}
+{"text":"is there a cheaper rate with another carrier for my mobile","intent":"oos","entities":[]}
+{"text":"Find an open slot for me.","intent":"schedule","entities":[]}
+{"text":"My plans have changed, can I move my consultation?","intent":"reschedule","entities":[{"start":37,"end":49,"label":"appointment_type"}]}
+{"text":"Availability inquiry for Dr. Giovanni Galli.","intent":"query_avail","entities":[{"start":25,"end":43,"label":"practitioner_name"}]}
+{"text":"i have to say goodbye","intent":"bye","entities":[]}
+{"text":"save my text on my laptop hard drive","intent":"oos","entities":[]}
+{"text":"thanks for helping me out today","intent":"positive_reply","entities":[]}
+{"text":"give me the local newsi","intent":"oos","entities":[]}
+{"text":"absolutely correct","intent":"positive_reply","entities":[]}
+{"text":"i'll pass","intent":"negative_reply","entities":[]}
+{"text":"what's the best type of plan to upgrade to","intent":"oos","entities":[]}
+{"text":"how much of a refund will i get this year","intent":"oos","entities":[]}
+{"text":"inform me of what microbes are","intent":"oos","entities":[]}
+{"text":"I need to cancel my defense rehearsal.","intent":"cancel","entities":[]}
+{"text":"I want to cancel my lab safety training with Prof. Scott.","intent":"cancel","entities":[{"start":20,"end":39,"label":"appointment_type"},{"start":45,"end":56,"label":"practitioner_name"}]}
+{"text":"how is everything going for you","intent":"greeting","entities":[]}
+{"text":"who created the world in greek mythology","intent":"oos","entities":[]}
+{"text":"fill out the paperwork for tonys new daycare center","intent":"oos","entities":[]}
+{"text":"Free times for a office hours with Dr. Giordano next week.","intent":"query_avail","entities":[{"start":17,"end":29,"label":"appointment_type"},{"start":35,"end":47,"label":"practitioner_name"}]}
+{"text":"Something came up, I need to change my appointment.","intent":"reschedule","entities":[]}
+{"text":"what are the scores of other teams in this division","intent":"oos","entities":[]}
+{"text":"what time did i put in my first load of laundry","intent":"oos","entities":[]}
+{"text":"good talk, see you later","intent":"bye","entities":[]}
+{"text":"when did the mls start","intent":"oos","entities":[]}
+{"text":"i had fun speaking with you","intent":"bye","entities":[]}
+{"text":"Let's schedule a haircut with Lee.","intent":"schedule","entities":[{"start":17,"end":24,"label":"appointment_type"},{"start":30,"end":33,"label":"practitioner_name"}]}
+{"text":"remind me of the address for my workplace please","intent":"oos","entities":[]}
+{"text":"the answer is yes","intent":"positive_reply","entities":[]}
+{"text":"fill up my water bottle for the gym","intent":"oos","entities":[]}
+{"text":"Availability of Dr. Ferri for a internship interview.","intent":"query_avail","entities":[{"start":16,"end":25,"label":"practitioner_name"},{"start":32,"end":52,"label":"appointment_type"}]}
+{"text":"This serves as a notification to cancel my appointment #302221.","intent":"cancel","entities":[{"start":55,"end":62,"label":"appointment_id"}]}
+{"text":"what do i wear on my feet when it rains","intent":"oos","entities":[]}
+{"text":"i owe you one!","intent":"positive_reply","entities":[]}
+{"text":"absolutely!","intent":"positive_reply","entities":[]}
+{"text":"which houses do not have automatic spot lights in front of their garage","intent":"oos","entities":[]}
+{"text":"where does jiu jitsu originate","intent":"oos","entities":[]}
+{"text":"who played ronald weasly","intent":"oos","entities":[]}
+{"text":"when will the next boston marathon be","intent":"oos","entities":[]}
+{"text":"compile a list of historical events from the boston marathon","intent":"oos","entities":[]}
+{"text":"how is your day","intent":"greeting","entities":[]}
+{"text":"what is the cost of four double a batteries","intent":"oos","entities":[]}
+{"text":"aquire the soundtracks from the movie if i stay and add them to my ipod","intent":"oos","entities":[]}
+{"text":"what is the life expectancy of a polar bear","intent":"oos","entities":[]}
+{"text":"yes i do like that","intent":"positive_reply","entities":[]}
+{"text":"how long should an essay be","intent":"oos","entities":[]}
+{"text":"what's the best golf club to use on the lower nine","intent":"oos","entities":[]}
+{"text":"that is not factual","intent":"negative_reply","entities":[]}
+{"text":"Let's book a seminar presentation with Testa for this Friday.","intent":"schedule","entities":[{"start":13,"end":33,"label":"appointment_type"},{"start":39,"end":44,"label":"practitioner_name"}]}
+{"text":"i'd say no","intent":"negative_reply","entities":[]}
+{"text":"i need to find a new babysitter","intent":"oos","entities":[]}
+{"text":"how's the real estate market doing this week","intent":"oos","entities":[]}
+{"text":"how goes it","intent":"greeting","entities":[]}
+{"text":"what are the top rated local lawyers","intent":"oos","entities":[]}
+{"text":"is it bad to not remember your dreams","intent":"oos","entities":[]}
+{"text":"how much over will overdraft protection cover","intent":"oos","entities":[]}
+{"text":"I need to delete a scheduled meeting.","intent":"cancel","entities":[]}
+{"text":"what's the dominant minor for the key of bflat","intent":"oos","entities":[]}
+{"text":"Cancel it.","intent":"cancel","entities":[]}
+{"text":"Please remove the dean's meeting with Dr. Bailey from my schedule.","intent":"cancel","entities":[{"start":18,"end":32,"label":"appointment_type"},{"start":38,"end":48,"label":"practitioner_name"}]}
+{"text":"what time did my daughter get home from her date","intent":"oos","entities":[]}
+{"text":"Set up a meeting with Dott. Matteo Palmieri.","intent":"schedule","entities":[{"start":22,"end":43,"label":"practitioner_name"}]}
+{"text":"can you tell me how to multiply two fractions","intent":"oos","entities":[]}
+{"text":"are tattoos safe to get","intent":"oos","entities":[]}
+{"text":"Change my appointment with Costa on Wednesday.","intent":"reschedule","entities":[{"start":27,"end":32,"label":"practitioner_name"}]}
+{"text":"it was great to see you again, see ya later!","intent":"bye","entities":[]}
+{"text":"can you order some ointment for me","intent":"oos","entities":[]}
+{"text":"that is not true, it's false","intent":"negative_reply","entities":[]}
+{"text":"finish the final touches on my newest robotic creation","intent":"oos","entities":[]}
+{"text":"how many generations of pokemon are there now","intent":"oos","entities":[]}
+{"text":"am i too old to be a sugar babyo","intent":"oos","entities":[]}
+{"text":"do a job search on monstercom for jobs in the tech field in arlington, va","intent":"oos","entities":[]}
+{"text":"yes, that's correct","intent":"positive_reply","entities":[]}
+{"text":"peace out","intent":"bye","entities":[]}
+{"text":"can you look up how i shoot a time lapse video on my iphone camera or is it even possible","intent":"oos","entities":[]}
+{"text":"I must cancel appointment #268952.","intent":"cancel","entities":[{"start":26,"end":33,"label":"appointment_id"}]}
+{"text":"it's a no","intent":"negative_reply","entities":[]}
+{"text":"what year was saxaphone first played","intent":"oos","entities":[]}
+{"text":"is time travel to the past theoretically possible","intent":"oos","entities":[]}
+{"text":"can you tell me what the best places are to look for a job online","intent":"oos","entities":[]}
+{"text":"Check Dr. Wilson's schedule for Friday.","intent":"query_avail","entities":[{"start":6,"end":16,"label":"practitioner_name"}]}
+{"text":"tell me how to make a lesson plan","intent":"oos","entities":[]}
+{"text":"where can i find the best divorce lawyer","intent":"oos","entities":[]}
+{"text":"i would like to thank you","intent":"positive_reply","entities":[]}
+{"text":"make a list of the top 100 famous quotes","intent":"oos","entities":[]}
+{"text":"look up which animal is represented in this year's chinese new year","intent":"oos","entities":[]}
+{"text":"Availability of Martin for a meeting.","intent":"query_avail","entities":[{"start":16,"end":22,"label":"practitioner_name"}]}
+{"text":"how is the ai doing","intent":"greeting","entities":[]}
+{"text":"not at all","intent":"negative_reply","entities":[]}
+{"text":"how many moons does mars have","intent":"oos","entities":[]}
+{"text":"can you tell me what key frank zappa's keep it greasy is in","intent":"oos","entities":[]}
+{"text":"sayonara","intent":"bye","entities":[]}
+{"text":"how does my current htc phone compare to other android phones","intent":"oos","entities":[]}
+{"text":"My department head meeting, booking #169102, with Santini is cancelled.","intent":"cancel","entities":[{"start":3,"end":26,"label":"appointment_type"},{"start":36,"end":43,"label":"appointment_id"},{"start":50,"end":57,"label":"practitioner_name"}]}
+{"text":"I need to push my meeting back.","intent":"reschedule","entities":[]}
+{"text":"hell nah","intent":"negative_reply","entities":[]}
+{"text":"zip the back of the brides maid dress","intent":"oos","entities":[]}
+{"text":"I need an appointment with Russo.","intent":"schedule","entities":[{"start":27,"end":32,"label":"practitioner_name"}]}
+{"text":"I have to pull out of my degree audit.","intent":"cancel","entities":[{"start":25,"end":37,"label":"appointment_type"}]}
+{"text":"what kinds of cereal are gluten free","intent":"oos","entities":[]}
+{"text":"that's a yes","intent":"positive_reply","entities":[]}
+{"text":"generate a list of the past 10 judge executives","intent":"oos","entities":[]}
+{"text":"find articles on essay writing for beginners","intent":"oos","entities":[]}
+{"text":"nice to see you","intent":"bye","entities":[]}
+{"text":"how do i get rid of an itchy rash","intent":"oos","entities":[]}
+{"text":"good looking out","intent":"positive_reply","entities":[]}
+{"text":"instruct a list of all the brands of cereal manufactured by kelloggs","intent":"oos","entities":[]}
+{"text":"yes, that's what i want","intent":"positive_reply","entities":[]}
+{"text":"do laundry","intent":"oos","entities":[]}
+{"text":"I need to change appointment #027236.","intent":"reschedule","entities":[{"start":29,"end":36,"label":"appointment_id"}]}
+{"text":"talk later","intent":"bye","entities":[]}
+{"text":"see you later","intent":"bye","entities":[]}
+{"text":"what is global warming","intent":"oos","entities":[]}
+{"text":"accepted","intent":"positive_reply","entities":[]}
+{"text":"do we actually have a soul","intent":"oos","entities":[]}
+{"text":"is the stop sign around the corner still knocked over","intent":"oos","entities":[]}
+{"text":"Check Costa's calendar for a pet checkup.","intent":"query_avail","entities":[{"start":6,"end":11,"label":"practitioner_name"},{"start":29,"end":40,"label":"appointment_type"}]}
+{"text":"I need to cancel my appointment #979722 with Dr. Ferri.","intent":"cancel","entities":[{"start":32,"end":39,"label":"appointment_id"},{"start":45,"end":54,"label":"practitioner_name"}]}
+{"text":"thank you goodbye","intent":"bye","entities":[]}
+{"text":"that is not false","intent":"positive_reply","entities":[]}
+{"text":"you've been a great help","intent":"positive_reply","entities":[]}
+{"text":"is there a better bus route i should be taking","intent":"oos","entities":[]}
+{"text":"that makes sense as well","intent":"positive_reply","entities":[]}
+{"text":"what are the different types of tvs","intent":"oos","entities":[]}
+{"text":"tell me the price of bananas at whole foods this week","intent":"oos","entities":[]}
+{"text":"what size space suit should you get based on your girth","intent":"oos","entities":[]}
+{"text":"i need to hire a grass treatment specialist","intent":"oos","entities":[]}
+{"text":"I need to move my meeting.","intent":"reschedule","entities":[]}
+{"text":"what are the camping restrictions at bear island","intent":"oos","entities":[]}
+{"text":"thanks, i appreciate it","intent":"positive_reply","entities":[]}
+{"text":"Cancel the advising session.","intent":"cancel","entities":[]}
+{"text":"I need to find another slot for my meeting with Dr. Wood.","intent":"reschedule","entities":[{"start":48,"end":56,"label":"practitioner_name"}]}
+{"text":"hi there alexa","intent":"greeting","entities":[]}
+{"text":"i am grateful for the help","intent":"positive_reply","entities":[]}
+{"text":"can you look at when the next iphone is due out","intent":"oos","entities":[]}
+{"text":"are you doing alright","intent":"greeting","entities":[]}
+{"text":"how do you store my card information","intent":"oos","entities":[]}
+{"text":"is the depiction of gold mining in the movie the ballad of buster scruggs realistic","intent":"oos","entities":[]}
+{"text":"can you show me my credit card number","intent":"oos","entities":[]}
+{"text":"would you tell me how the ai is doing","intent":"greeting","entities":[]}
+{"text":"Can we move my portfolio review with Professor Schmidt? It's appointment #073761.","intent":"reschedule","entities":[{"start":15,"end":31,"label":"appointment_type"},{"start":37,"end":54,"label":"practitioner_name"},{"start":73,"end":80,"label":"appointment_id"}]}
+{"text":"what movies are available","intent":"oos","entities":[]}
+{"text":"no, that is incorrect","intent":"negative_reply","entities":[]}
+{"text":"that appears true","intent":"positive_reply","entities":[]}
+{"text":"how much memory do i have left on this phone","intent":"oos","entities":[]}
+{"text":"that isn't the right answer","intent":"negative_reply","entities":[]}
+{"text":"Get me on Pagano's schedule.","intent":"schedule","entities":[{"start":10,"end":16,"label":"practitioner_name"}]}
+{"text":"hey there","intent":"greeting","entities":[]}
+{"text":"buhbye","intent":"bye","entities":[]}
+{"text":"what stores are in the local mall","intent":"oos","entities":[]}
+{"text":"Time for a quarterly review with Dott. Marco Conti.","intent":"schedule","entities":[{"start":11,"end":27,"label":"appointment_type"},{"start":33,"end":50,"label":"practitioner_name"}]}
+{"text":"thanks, bye","intent":"bye","entities":[]}
+{"text":"thanks for the reply","intent":"positive_reply","entities":[]}
+{"text":"later!","intent":"bye","entities":[]}
+{"text":"that you so much for the help","intent":"positive_reply","entities":[]}
+{"text":"what marvel movie did mark ruffalo first appear in","intent":"oos","entities":[]}
+{"text":"what was hercules the god of","intent":"oos","entities":[]}
+{"text":"i enjoyed speaking with you","intent":"bye","entities":[]}
+{"text":"is it too late to wear white","intent":"oos","entities":[]}
+{"text":"Book a presentation rehearsal with Marchetti as soon as possible.","intent":"schedule","entities":[{"start":7,"end":29,"label":"appointment_type"},{"start":35,"end":44,"label":"practitioner_name"}]}
+{"text":"when will the government file another antitrust suit against microsoft","intent":"oos","entities":[]}
+{"text":"ai, how are you doing","intent":"greeting","entities":[]}
+{"text":"watch the stories on instagram","intent":"oos","entities":[]}
+{"text":"how safe is the herpes vaccine they give women","intent":"oos","entities":[]}
+{"text":"what type of industries do innovation managers work in","intent":"oos","entities":[]}
+{"text":"I can't make my department head meeting (ID #593568) with Hill.","intent":"reschedule","entities":[{"start":16,"end":39,"label":"appointment_type"},{"start":44,"end":51,"label":"appointment_id"},{"start":58,"end":62,"label":"practitioner_name"}]}
+{"text":"List schedule openings.","intent":"query_avail","entities":[]}
+{"text":"what was the closing number of the nasdaq today","intent":"oos","entities":[]}
+{"text":"where can i see art","intent":"oos","entities":[]}
+{"text":"I want to schedule a meeting with Dr. Laura Ferrari.","intent":"schedule","entities":[{"start":34,"end":51,"label":"practitioner_name"}]}
+{"text":"Postpone my tax consultation with De Angelis, reference #794232.","intent":"reschedule","entities":[{"start":12,"end":28,"label":"appointment_type"},{"start":34,"end":44,"label":"practitioner_name"},{"start":56,"end":63,"label":"appointment_id"}]}
+{"text":"bye bye!","intent":"bye","entities":[]}
+{"text":"find out how many latin scholars there are at the university of chicago","intent":"oos","entities":[]}
+{"text":"thank you for your help","intent":"positive_reply","entities":[]}
+{"text":"what are the highest-rated android phones","intent":"oos","entities":[]}
+{"text":"what bills is congress talking about passing or blocking today","intent":"oos","entities":[]}
+{"text":"I want to set up a course planning.","intent":"schedule","entities":[{"start":19,"end":34,"label":"appointment_type"}]}
+{"text":"can you tell me the purpose of a safe deposit box","intent":"oos","entities":[]}
+{"text":"I can't make my scheduled appointment.","intent":"reschedule","entities":[]}
+{"text":"when does napa close","intent":"oos","entities":[]}
+{"text":"I need to cancel a meeting, ID #209073.","intent":"cancel","entities":[{"start":31,"end":38,"label":"appointment_id"}]}
+{"text":"show me the best times to book flights for traveling to another country","intent":"oos","entities":[]}
+{"text":"where can i list my vehicle for sell","intent":"oos","entities":[]}
+{"text":"what's the order of the circle of fifths","intent":"oos","entities":[]}
+{"text":"so how is everything","intent":"greeting","entities":[]}
+{"text":"can you list me tiger wood's stats","intent":"oos","entities":[]}
+{"text":"Cancel my departmental meeting with Mr. Peterson, please.","intent":"cancel","entities":[{"start":10,"end":30,"label":"appointment_type"},{"start":36,"end":48,"label":"practitioner_name"}]}
+{"text":"i think it is false","intent":"negative_reply","entities":[]}
+{"text":"Next available qualifying exam.","intent":"query_avail","entities":[{"start":15,"end":30,"label":"appointment_type"}]}
+{"text":"where did mandarin originate from","intent":"oos","entities":[]}
+{"text":"i would have to say yes as my answer","intent":"positive_reply","entities":[]}
+{"text":"how safe is it to consume the substance h2o","intent":"oos","entities":[]}
+{"text":"how can i get involved in restaurant marketing","intent":"oos","entities":[]}
+{"text":"Set up x-ray with Ms. Davis.","intent":"schedule","entities":[{"start":7,"end":12,"label":"appointment_type"},{"start":18,"end":27,"label":"practitioner_name"}]}
+{"text":"when will the daffodils bloom this year","intent":"oos","entities":[]}
+{"text":"google \"odell beckham free agency\"","intent":"oos","entities":[]}
+{"text":"i say no to that question","intent":"negative_reply","entities":[]}
+{"text":"tell me how are you","intent":"greeting","entities":[]}
+{"text":"tell me where to send my resume in order to get a job at delta airlines","intent":"oos","entities":[]}
+{"text":"what's in fashion this month","intent":"oos","entities":[]}
+{"text":"I no longer need my advising session with Prof. Dubois.","intent":"cancel","entities":[{"start":42,"end":54,"label":"practitioner_name"}]}
+{"text":"the answer to that is a resounding yes","intent":"positive_reply","entities":[]}
+{"text":"i have too many credit cards, is there any way you can help me organize them","intent":"oos","entities":[]}
+{"text":"when does game of thrones return on hbo","intent":"oos","entities":[]}

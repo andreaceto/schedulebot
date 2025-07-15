@@ -1,0 +1,97 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 164619,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/aceto/Documents/GitHub/schedulebot-plus/data/raw/train.jsonl": {
+      "num_bytes": 167576,
+      "checksum": null
+    },
+    "C:/Users/aceto/Documents/GitHub/schedulebot-plus/data/raw/validation.jsonl": {
+      "num_bytes": 37063,
+      "checksum": null
+    },
+    "C:/Users/aceto/Documents/GitHub/schedulebot-plus/data/raw/test.jsonl": {
+      "num_bytes": 36155,
+      "checksum": null
+    }
+  },
+  "download_size": 240794,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "intent_label": {
+      "names": [
+        "bye",
+        "cancel",
+        "greeting",
+        "negative_reply",
+        "oos",
+        "positive_reply",
+        "query_avail",
+        "reschedule",
+        "schedule"
+      ],
+      "_type": "ClassLabel"
+    },
+    "ner_labels": {
+      "feature": {
+        "names": [
+          "O",
+          "B-appointment_id",
+          "I-appointment_id",
+          "B-appointment_type",
+          "I-appointment_type",
+          "B-practitioner_name",
+          "I-practitioner_name"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 405413,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 114345,
+      "num_examples": 1864,
+      "dataset_name": "json"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 25538,
+      "num_examples": 400,
+      "dataset_name": "json"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 24736,
+      "num_examples": 400,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
