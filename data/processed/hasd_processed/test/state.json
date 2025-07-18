@@ -4,12 +4,12 @@
       "filename": "data-00000-of-00001.arrow"
     }
   ],
-  "_fingerprint": "935844aa86c20a70",
+  "_fingerprint": "8a7c1f454b53d81c",
   "_format_columns": [
     "input_ids",
     "attention_mask",
     "intent_label",
-    "ner_labels"
+    "labels"
   ],
   "_format_kwargs": {},
   "_format_type": null,

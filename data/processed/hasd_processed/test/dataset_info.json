@@ -3,23 +3,23 @@
   "citation": "",
   "config_name": "default",
   "dataset_name": "json",
-  "dataset_size": 164619,
+  "dataset_size": 249489,
   "description": "",
   "download_checksums": {
     "C:/Users/aceto/Documents/GitHub/schedulebot-plus/data/raw/train.jsonl": {
-      "num_bytes": 167576,
+      "num_bytes": 248004,
       "checksum": null
     },
     "C:/Users/aceto/Documents/GitHub/schedulebot-plus/data/raw/validation.jsonl": {
-      "num_bytes": 37063,
+      "num_bytes": 51624,
       "checksum": null
     },
     "C:/Users/aceto/Documents/GitHub/schedulebot-plus/data/raw/test.jsonl": {
-      "num_bytes": 36155,
+      "num_bytes": 52346,
       "checksum": null
     }
   },
-  "download_size": 240794,
+  "download_size": 351974,
   "features": {
     "input_ids": {
       "feature": {
@@ -49,7 +49,7 @@
       ],
       "_type": "ClassLabel"
     },
-    "ner_labels": {
+    "labels": {
       "feature": {
         "names": [
           "O",
@@ -67,24 +67,24 @@
   },
   "homepage": "",
   "license": "",
-  "size_in_bytes": 405413,
+  "size_in_bytes": 601463,
   "splits": {
     "train": {
       "name": "train",
-      "num_bytes": 114345,
-      "num_examples": 1864,
+      "num_bytes": 175986,
+      "num_examples": 2045,
       "dataset_name": "json"
     },
     "validation": {
       "name": "validation",
-      "num_bytes": 25538,
-      "num_examples": 400,
+      "num_bytes": 36476,
+      "num_examples": 438,
       "dataset_name": "json"
     },
     "test": {
       "name": "test",
-      "num_bytes": 24736,
-      "num_examples": 400,
+      "num_bytes": 37027,
+      "num_examples": 439,
       "dataset_name": "json"
     }
   },

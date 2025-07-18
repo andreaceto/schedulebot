@@ -39,7 +39,7 @@ def create_id_file(num_to_generate, output_path):
 # This part runs when you execute the script directly
 if __name__ == "__main__":
     # --- Configuration ---
-    NUM_IDS_TO_GENERATE = 1500
+    NUM_IDS_TO_GENERATE = 150
     OUTPUT_FILE = os.path.join("data", "raw", "entities", "appointment_id.csv")
 
     create_id_file(NUM_IDS_TO_GENERATE, OUTPUT_FILE)
