@@ -11,3 +11,5 @@ accelerate
 matplotlib
 seaborn
 sentence-transformers
+spacy
+seqeval

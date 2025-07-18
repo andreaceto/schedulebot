@@ -11,6 +11,8 @@ COPY requirements.txt .
 # --no-cache-dir: Disables the cache to keep the image size smaller
 # --trusted-host pypi.python.org: Can help avoid SSL issues in some networks
 RUN pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
+# Download the spaCy model using its own command line interface
+RUN python -m spacy download en_core_web_sm
 
 # Copy the rest of the application's source code from your host to your image filesystem.
 COPY ./src /app/src
