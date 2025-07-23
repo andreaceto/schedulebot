@@ -13,3 +13,6 @@ seaborn
 sentence-transformers
 spacy
 seqeval
+accelerate
+bitsandbytes
+gradio
