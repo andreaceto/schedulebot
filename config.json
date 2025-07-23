@@ -1,0 +1,17 @@
+{
+    "slot_duration_minutes": 30,
+    "min_gap_minutes": 15,
+    "max_appointments_per_day": 10,
+    "working_hours": {
+        "start": "09:00",
+        "end": "17:00"
+    },
+    "lunch_break": {
+        "start": "13:00",
+        "end": "14:00"
+    },
+    "non_working_days": [
+        "Saturday",
+        "Sunday"
+    ]
+}

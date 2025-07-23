@@ -212,4 +212,9 @@ __marimo__/
 
 # Models
 models/
+
+# Logs
 logs/
+
+# DB
+calendar.db
