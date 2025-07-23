@@ -1,0 +1,74 @@
+[
+  {
+    "name": "check_availability",
+    "description": "Checks the calendar for available appointment slots. Use this when the user asks about availability for a specific time.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "practitioner_name": {
+          "type": "string",
+          "description": "The name of the practitioner to check the schedule for."
+        },
+        "date_time": {
+          "type": "string",
+          "description": "The specific date or time the user is asking about, in ISO 8601 format."
+        }
+      },
+      "required": ["date_time"]
+    }
+  },
+  {
+    "name": "book_appointment",
+    "description": "Books a new appointment on the calendar after all required information has been gathered and confirmed.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "practitioner_name": {
+          "type": "string",
+          "description": "The name of the practitioner for the appointment."
+        },
+        "appointment_type": {
+          "type": "string",
+          "description": "The type of appointment, e.g., 'check-up'."
+        },
+        "date_time": {
+          "type": "string",
+          "description": "The specific date and time for the appointment, in ISO 8601 format."
+        }
+      },
+      "required": ["practitioner_name", "date_time", "appointment_type"]
+    }
+  },
+  {
+    "name": "cancel_appointment",
+    "description": "Cancels an existing appointment using its unique ID.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "appointment_id": {
+          "type": "string",
+          "description": "The unique ID of the appointment to cancel, e.g., '#12345'."
+        }
+      },
+      "required": ["appointment_id"]
+    }
+  },
+  {
+    "name": "reschedule_appointment",
+    "description": "Reschedules an existing appointment to a new time using its unique ID.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "appointment_id": {
+          "type": "string",
+          "description": "The unique ID of the appointment to reschedule."
+        },
+        "time": {
+          "type": "string",
+          "description": "The new date and time for the appointment, in ISO 8601 format."
+        }
+      },
+      "required": ["appointment_id", "time"]
+    }
+  }
+]
