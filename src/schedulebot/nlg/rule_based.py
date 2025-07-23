@@ -33,8 +33,8 @@ class NLGModule:
                 "To confirm, we are rescheduling appointment {appointment_id} to {time}. Is this correct?",
             ],
             "confirm_cancellation": [
-                "Are you sure you want to cancel appointment {appointment_id}?",
-                "Just to double-check, you'd like to cancel your appointment with ID {appointment_id}. Is that right?",
+                "Are you sure you want to cancel appointment #{appointment_id}?",
+                "Just to double-check, you'd like to cancel your appointment with ID #{appointment_id}. Is that right?",
             ],
             "request_information": [
                 "To proceed, I'll need a bit more information. Could you please provide the {missing_slots}?",
@@ -44,21 +44,31 @@ class NLGModule:
                 "Okay, I've cancelled that request. Is there anything else I can help you with?",
                 "No problem, that action has been cancelled. What else can I do for you?",
             ],
-            "execute_booking": [
-                "All set! Your appointment is booked. Your appointment ID is {appointment_id}.",
-                "Great, you are confirmed. Your new appointment ID is {appointment_id}.",
+            # --- Templates for successful tool actions ---
+            "respond_execute_booking": [
+                "All set! Your appointment is booked. {result}",
+                "Great, you are confirmed. {result}",
             ],
-            "execute_cancellation": [
-                "Okay, your appointment with ID {appointment_id} has been successfully cancelled.",
-                "I have now cancelled appointment {appointment_id} for you.",
+            "respond_execute_cancellation": [
+                "Okay, I've processed that for you. {result}",
+                "Done. {result}",
             ],
-            "execute_reschedule": [
-                "Done! Your appointment has been successfully rescheduled to {time}.",
-                "I've updated your appointment. The new time is {time}.",
+            "respond_execute_reschedule": [
+                "The appointment has been updated. {result}",
+                "All set. {result}",
             ],
-            "execute_query_avail": [
-                "Let me check the schedule. It looks like we have an opening at 4 PM tomorrow.",
-                "Checking the calendar now... Yes, there is an available slot at 4 PM tomorrow.",
+            "respond_execute_query_avail": [
+                "Here is the availability I found: {result}",
+                "Let's see... {result}",
+            ],
+            # --- Templates for suggestions and failures ---
+            "suggest_slots": [
+                "I'm sorry, but that time is unavailable because: {reason}. However, here are some open slots for that day: {suggestions}.",
+                "Unfortunately, that time won't work ({reason}). You could try one of these times instead: {suggestions}.",
+            ],
+            "inform_failure": [
+                "I'm sorry, I was unable to complete your request. Reason: {message}",
+                "Apologies, but I ran into an issue: {message}",
             ],
             "fallback": [
                 "I'm sorry, I didn't quite understand that. Could you please rephrase?",
@@ -86,7 +96,8 @@ class NLGModule:
             if action_type == "execute_booking":
                 details["appointment_id"] = generate_appointment_id()
 
-            return template.format(**details)
+            # Use .get() to avoid errors if a key is missing
+            return template.format(**{k: details.get(k, f"{{{k}}}") for k in details})
         else:
             # If the action is unknown, use the fallback
             return random.choice(self.templates["fallback"])

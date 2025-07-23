@@ -16,3 +16,4 @@ seqeval
 accelerate
 bitsandbytes
 gradio
+pytest

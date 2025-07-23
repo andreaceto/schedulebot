@@ -1,4 +1,3 @@
-# run_app.py
 import gradio as gr
 import json
 from src.schedulebot.app import ChatbotApp
@@ -39,8 +38,13 @@ def save_config(
     )
     print("--- Chatbot Ready ---")
 
-    # Return updates to the Gradio UI
-    return {setup_box: gr.update(visible=False), chat_box: gr.update(visible=True)}
+    # Return updates to the Gradio UI to hide the setup and show the chat
+    return {
+        # --- NEW: Hide the main title ---
+        main_title: gr.update(visible=False),
+        setup_group: gr.update(visible=False),
+        chat_group: gr.update(visible=True),
+    }
 
 
 def chat_interface(message, history):
@@ -53,13 +57,11 @@ def chat_interface(message, history):
 
 # --- Build the Gradio UI using Blocks ---
 with gr.Blocks(theme=gr.themes.Default(), title="ScheduleBOT+") as demo:
-    gr.Markdown("# ScheduleBOT+ Configuration")
-
-    # --- State to manage visibility ---
-    is_configured = gr.State(False)
+    # --- NEW: Create a separate component for the title ---
+    main_title = gr.Markdown("# ScheduleBOT+ Configuration")
 
     # --- Setup Screen (Visible by default) ---
-    with gr.Group(visible=True) as setup_box:
+    with gr.Group(visible=True) as setup_group:
         gr.Markdown("## Calendar Settings")
         with gr.Row():
             slot_duration = gr.Number(label="Slot Duration (minutes)", value=30)
@@ -93,13 +95,14 @@ with gr.Blocks(theme=gr.themes.Default(), title="ScheduleBOT+") as demo:
         )
 
     # --- Chat Screen (Hidden by default) ---
-    with gr.Group(visible=False) as chat_box:
+    with gr.Group(visible=False) as chat_group:
         gr.ChatInterface(
             fn=chat_interface,
             title="ScheduleBOT+",
             description="An intelligent agent for appointment management.",
             examples=[
-                ["Is 2 PM tomorrow available?"],
+                ["Hi there!"],
+                ["Is 2 PM tomorrow available for a dental cleaning?"],
                 ["I'd like to book a check-up with Dr. Smith."],
             ],
         )
@@ -117,8 +120,10 @@ with gr.Blocks(theme=gr.themes.Default(), title="ScheduleBOT+") as demo:
             lunch_end,
             non_working,
         ],
-        outputs=[setup_box, chat_box],
+        # --- NEW: Add the title to the outputs ---
+        outputs=[main_title, setup_group, chat_group],
     )
+
 
 if __name__ == "__main__":
     demo.launch()

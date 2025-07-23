@@ -2,6 +2,8 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from data.appointment_id_generator import generate_appointment_id
 
+# This version is outdated and was discarded due to low resources available to run better models
+
 
 class NLGModule:
     """

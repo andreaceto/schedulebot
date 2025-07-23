@@ -27,4 +27,4 @@ COPY .env /app/.env
 # Command to run the application when the container launches
 # This will be the main entry point for your Gradio app in the next milestone.
 # For now, we can use the command-line chat.
-CMD ["python", "-m", "src.schedulebot.main"]
+CMD ["python", "-m", "run_app.py"]
