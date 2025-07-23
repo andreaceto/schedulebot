@@ -7,39 +7,44 @@ SHELL := /bin/bash
 .DEFAULT_GOAL := help
 
 ## --------------------------------------
+## Application Commands
+## --------------------------------------
+
+.PHONY: run
+run: ## Run the Gradio application
+	@echo ">> Starting the ScheduleBOT+ application..."
+	@python run_app.py
+
+## --------------------------------------
 ## Docker Commands
 ## --------------------------------------
 
 .PHONY: build
-build: ## 🛠️  Build or rebuild the Docker services
+build: ## Build or rebuild the Docker services
 	@echo ">> Building services..."
 	@docker-compose build
 
 .PHONY: up
-up: ## 🚀 Start all services in detached mode
+up: ## Start backend services (like Duckling) in detached mode
 	@echo ">> Starting services in the background..."
 	@docker-compose up -d
 
 .PHONY: down
-down: ## 🛑 Stop and remove all services
+down: ## Stop and remove all Docker services
 	@echo ">> Stopping and removing containers..."
 	@docker-compose down
 
-.PHONY: logs
-logs: ## 📜 View real-time logs for all services
-	@echo ">> Tailing logs (press Ctrl+C to stop)..."
-	@docker-compose logs -f
-
-.PHONY: test
-test: ## 🧪 Run pytest inside the app container
-	@echo ">> Running tests..."
-	@docker-compose run --rm app pytest
 
 ## --------------------------------------
 ## Help
 ## --------------------------------------
 
 .PHONY: help
-help: ## 🙋 Show this help message
+help: ## Show this help message
 	@echo "Available commands:"
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_-LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
+	@echo ""
+	@echo "  build          Build or rebuild the Docker services"
+	@echo "  up             Start backend services (like Duckling) in detached mode"
+	@echo "  run            Run the Gradio application"
+	@echo "  down           Stop and remove all Docker services"
+	@echo "  help           Show this help message"

@@ -1,5 +1,10 @@
 import sqlite3
 import datetime
+import logging
+
+# Get the logger instance that is configured in your main app.py
+# This ensures all log messages go to the same place (chatbot.log)
+logger = logging.getLogger(__name__)
 
 
 class CalendarClient:
@@ -12,26 +17,34 @@ class CalendarClient:
         """Initializes the database connection and stores the config."""
         self.config = config
         self.db_path = db_path
-        # Allow the connection to be used across different threads (for Gradio)
-        self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
-        self._create_table()
+        try:
+            # Allow the connection to be used across different threads (for Gradio)
+            self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
+            self._create_table()
+            logger.info(f"Successfully connected to database at {self.db_path}")
+        except sqlite3.Error as e:
+            logger.error(f"Error connecting to database: {e}")
+            self.conn = None
 
     def _create_table(self):
         """Creates the appointments table if it's not already present."""
-        cursor = self.conn.cursor()
-        cursor.execute(
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute(
+                """
+                CREATE TABLE IF NOT EXISTS appointments (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    summary TEXT NOT NULL,
+                    practitioner_name TEXT,
+                    appointment_type TEXT,
+                    start_time TEXT NOT NULL,
+                    end_time TEXT NOT NULL
+                );
             """
-            CREATE TABLE IF NOT EXISTS appointments (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                summary TEXT NOT NULL,
-                practitioner_name TEXT,
-                appointment_type TEXT,
-                start_time TEXT NOT NULL,
-                end_time TEXT NOT NULL
-            );
-        """
-        )
-        self.conn.commit()
+            )
+            self.conn.commit()
+        except sqlite3.Error as e:
+            logger.error(f"Error creating appointments table: {e}")
 
     def _is_slot_booked(self, start_time, end_time):
         """Checks if a specific time range overlaps with any existing appointment."""
@@ -125,31 +138,72 @@ class CalendarClient:
         )
         is_available, reason = self.check_availability(start_time)
         if not is_available:
+            logger.warning(f"Booking failed for '{summary}' at {start_time}: {reason}")
             return None, reason
 
-        cursor = self.conn.cursor()
-        cursor.execute(
-            """
-            INSERT INTO appointments (summary, practitioner_name, appointment_type, start_time, end_time)
-            VALUES (?, ?, ?, ?, ?)
-        """,
-            (
-                summary,
-                practitioner_name,
-                appointment_type,
-                start_time.isoformat(),
-                end_time.isoformat(),
-            ),
-        )
-        self.conn.commit()
-        return cursor.lastrowid, "Appointment booked successfully."
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute(
+                "INSERT INTO appointments (summary, practitioner_name, appointment_type, start_time, end_time) VALUES (?, ?, ?, ?, ?)",
+                (
+                    summary,
+                    practitioner_name,
+                    appointment_type,
+                    start_time.isoformat(),
+                    end_time.isoformat(),
+                ),
+            )
+            self.conn.commit()
+            appt_id = cursor.lastrowid
+            logger.info(f"Successfully booked appointment ID {appt_id}: {summary}")
+            return appt_id, "Appointment booked successfully."
+        except sqlite3.Error as e:
+            logger.error(f"Database error during booking: {e}")
+            return None, "A database error occurred."
+
+    def find_available_slots(self, start_date: datetime.date):
+        """
+        Finds the first few available slots for a given day.
+        """
+        available_slots = []
+        working_start_time = datetime.datetime.strptime(
+            self.config["working_hours"]["start"], "%H:%M"
+        ).time()
+        working_end_time = datetime.datetime.strptime(
+            self.config["working_hours"]["end"], "%H:%M"
+        ).time()
+        current_slot_start = datetime.datetime.combine(start_date, working_start_time)
+        day_end = datetime.datetime.combine(start_date, working_end_time)
+        while current_slot_start < day_end:
+            is_available, reason = self.check_availability(current_slot_start)
+            if is_available:
+                available_slots.append(current_slot_start)
+                if len(available_slots) >= 3:
+                    break
+            current_slot_start += datetime.timedelta(
+                minutes=self.config["slot_duration_minutes"]
+            )
+        return available_slots
 
     def cancel_appointment(self, appointment_id: int) -> bool:
         """Deletes an appointment by its ID. Returns True if successful."""
-        cursor = self.conn.cursor()
-        cursor.execute("DELETE FROM appointments WHERE id = ?", (appointment_id,))
-        self.conn.commit()
-        return cursor.rowcount > 0
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute("DELETE FROM appointments WHERE id = ?", (appointment_id,))
+            self.conn.commit()
+            success = cursor.rowcount > 0
+            if success:
+                logger.info(f"Successfully cancelled appointment ID {appointment_id}")
+            else:
+                logger.warning(
+                    f"Attempted to cancel non-existent appointment ID {appointment_id}"
+                )
+            return success
+        except sqlite3.Error as e:
+            logger.error(
+                f"Database error during cancellation for ID {appointment_id}: {e}"
+            )
+            return False
 
     def reschedule_appointment(
         self, appointment_id: int, new_start_time: datetime.datetime
@@ -158,18 +212,31 @@ class CalendarClient:
         new_end_time = new_start_time + datetime.timedelta(
             minutes=self.config["slot_duration_minutes"]
         )
-        cursor = self.conn.cursor()
-        cursor.execute(
-            """
-            UPDATE appointments
-            SET start_time = ?, end_time = ?
-            WHERE id = ?
-        """,
-            (new_start_time.isoformat(), new_end_time.isoformat(), appointment_id),
-        )
-        self.conn.commit()
-        return cursor.rowcount > 0
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute(
+                "UPDATE appointments SET start_time = ?, end_time = ? WHERE id = ?",
+                (new_start_time.isoformat(), new_end_time.isoformat(), appointment_id),
+            )
+            self.conn.commit()
+            success = cursor.rowcount > 0
+            if success:
+                logger.info(
+                    f"Successfully rescheduled appointment ID {appointment_id} to {new_start_time}"
+                )
+            else:
+                logger.warning(
+                    f"Attempted to reschedule non-existent appointment ID {appointment_id}"
+                )
+            return success
+        except sqlite3.Error as e:
+            logger.error(
+                f"Database error during reschedule for ID {appointment_id}: {e}"
+            )
+            return False
 
     def __del__(self):
         """Ensures the database connection is closed when the object is destroyed."""
-        self.conn.close()
+        if self.conn:
+            self.conn.close()
+            logger.info("Database connection closed.")
