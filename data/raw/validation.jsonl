@@ -1,0 +1,438 @@
+{"text":"this was a nice conversation","intent":"bye","entities":[]}
+{"text":"thanks for your help!","intent":"positive_reply","entities":[]}
+{"text":"updated for open times.","intent":"query_avail","entities":[]}
+{"text":"Openings : a presentation rehearsal with Greco tomorrow.","intent":"query_avail","entities":[{"start":13,"end":35,"label":"appointment_type"},{"start":41,"end":46,"label":"practitioner_name"}]}
+{"text":"how can i use make up to cover a cut on my cheek","intent":"oos","entities":[]}
+{"text":"that's not true","intent":"negative_reply","entities":[]}
+{"text":"Parisi's open slots for a research seminar.","intent":"query_avail","entities":[{"start":0,"end":6,"label":"practitioner_name"},{"start":26,"end":42,"label":"appointment_type"}]}
+{"text":"Please delete appointment #861346, my fieldwork briefing with Professor Nowak.","intent":"cancel","entities":[{"start":26,"end":33,"label":"appointment_id"},{"start":38,"end":56,"label":"appointment_type"},{"start":72,"end":77,"label":"practitioner_name"}]}
+{"text":"I need to remember the time of appointment #339055 .","intent":"reschedule","entities":[{"start":43,"end":50,"label":"appointment_id"}]}
+{"text":"Find an alternative","intent":"query_avail","entities":[]}
+{"text":"find a couple's therapist who can help me and my wife","intent":"oos","entities":[]}
+{"text":"Prof. Murphy's schedule for a study group meeting.","intent":"query_avail","entities":[{"start":0,"end":12,"label":"practitioner_name"},{"start":30,"end":49,"label":"appointment_type"}]}
+{"text":"Cancel my upcoming session.","intent":"cancel","entities":[]}
+{"text":"I'm writing to inform you of the cancellation of my code review with Dr. Stefano Marchese , ID #079183 :","intent":"cancel","entities":[{"start":52,"end":63,"label":"appointment_type"},{"start":69,"end":89,"label":"practitioner_name"},{"start":95,"end":102,"label":"appointment_id"}]}
+{"text":"Find list immunization shot times.","intent":"query_avail","entities":[{"start":10,"end":27,"label":"appointment_type"}]}
+{"text":"six open slots.","intent":"query_avail","entities":[]}
+{"text":"Availability of Dr. Giovanni Galli becomes a internship interview .","intent":"query_avail","entities":[{"start":16,"end":34,"label":"practitioner_name"},{"start":45,"end":65,"label":"appointment_type"}]}
+{"text":"I have to cancel my flight","intent":"cancel","entities":[]}
+{"text":"I have a conflict with our current appointment time.","intent":"reschedule","entities":[]}
+{"text":"Set = research seminar .","intent":"schedule","entities":[{"start":6,"end":22,"label":"appointment_type"}]}
+{"text":"I no longer need my advising session with Harris.","intent":"cancel","entities":[{"start":42,"end":48,"label":"practitioner_name"}]}
+{"text":"Book a lab session with Bianchi ","intent":"schedule","entities":[{"start":24,"end":31,"label":"practitioner_name"}]}
+{"text":"I'd like your book an appointment.","intent":"schedule","entities":[]}
+{"text":"I want to have a session.","intent":"schedule","entities":[]}
+{"text":"I need to find another time for my registration appointment with Dr. Santoro.","intent":"reschedule","entities":[{"start":35,"end":59,"label":"appointment_type"},{"start":65,"end":76,"label":"practitioner_name"}]}
+{"text":"hey","intent":"greeting","entities":[]}
+{"text":"I want to schedule a meeting with Galli.","intent":"schedule","entities":[{"start":34,"end":39,"label":"practitioner_name"}]}
+{"text":"• move my meeting, ID #000317 .","intent":"reschedule","entities":[{"start":22,"end":29,"label":"appointment_id"}]}
+{"text":"academic integrity hearing : check.","intent":"query_avail","entities":[{"start":0,"end":26,"label":"appointment_type"}]}
+{"text":"I have to cancel appointment #692463 = Collins .","intent":"cancel","entities":[{"start":29,"end":36,"label":"appointment_id"},{"start":39,"end":46,"label":"practitioner_name"}]}
+{"text":"Delete my !","intent":"cancel","entities":[]}
+{"text":"Check for internship check-in openings.","intent":"query_avail","entities":[{"start":10,"end":29,"label":"appointment_type"}]}
+{"text":"I have appointment #568999 with Leone that needs rescheduling.","intent":"reschedule","entities":[{"start":19,"end":26,"label":"appointment_id"},{"start":32,"end":37,"label":"practitioner_name"}]}
+{"text":"that's inaccurate","intent":"negative_reply","entities":[]}
+{"text":"What is free.","intent":"query_avail","entities":[]}
+{"text":"Delete your appointment.","intent":"cancel","entities":[]}
+{"text":"Please cancel any appointment for the guest lecture .","intent":"cancel","entities":[{"start":38,"end":51,"label":"appointment_type"}]}
+{"text":"listing the available times.","intent":"query_avail","entities":[]}
+{"text":"Check openings for a massage therapy with Miller ;","intent":"query_avail","entities":[{"start":21,"end":36,"label":"appointment_type"},{"start":42,"end":48,"label":"practitioner_name"}]}
+{"text":"I'm afraid I have to cancel my meeting.","intent":"cancel","entities":[]}
+{"text":"I'm trying to schedule a health screening with Esposito .","intent":"schedule","entities":[{"start":25,"end":41,"label":"appointment_type"},{"start":47,"end":55,"label":"practitioner_name"}]}
+{"text":"hello, how's your day","intent":"greeting","entities":[]}
+{"text":"you need to move my meeting.","intent":"reschedule","entities":[]}
+{"text":"Cancel it.","intent":"cancel","entities":[]}
+{"text":"Please proceed with cancelling my appointment with Fiore.","intent":"cancel","entities":[{"start":51,"end":56,"label":"practitioner_name"}]}
+{"text":"later, thanks for chatting","intent":"bye","entities":[]}
+{"text":"candidates must have a ultrasound with Sanna this week.","intent":"schedule","entities":[{"start":23,"end":33,"label":"appointment_type"},{"start":39,"end":44,"label":"practitioner_name"}]}
+{"text":"I will not be able to attend my scheduled patient ID #684466 .","intent":"cancel","entities":[{"start":53,"end":60,"label":"appointment_id"}]}
+{"text":"My plans have changed, can I move my grant proposal meeting?","intent":"reschedule","entities":[{"start":37,"end":59,"label":"appointment_type"}]}
+{"text":"thanks for chatting, later","intent":"bye","entities":[]}
+{"text":"List times to meet with Basile.","intent":"query_avail","entities":[{"start":24,"end":30,"label":"practitioner_name"}]}
+{"text":"Availability on July 30","intent":"query_avail","entities":[]}
+{"text":"Please take my advising session off the schedule.","intent":"cancel","entities":[{"start":15,"end":31,"label":"appointment_type"}]}
+{"text":"I will not be able to attend my scheduled meeting, ID #842972.","intent":"cancel","entities":[{"start":54,"end":61,"label":"appointment_id"}]}
+{"text":"Can anyone get a different time for my meeting with Richardson ?","intent":"reschedule","entities":[{"start":52,"end":62,"label":"practitioner_name"}]}
+{"text":"peace out","intent":"bye","entities":[]}
+{"text":"My apologies, but I must cancel my psychologist appointment with Wright , ID #077573 }","intent":"cancel","entities":[{"start":35,"end":59,"label":"appointment_type"},{"start":65,"end":71,"label":"practitioner_name"},{"start":77,"end":84,"label":"appointment_id"}]}
+{"text":"Please cancel my appointment, ref #470394 >","intent":"cancel","entities":[{"start":34,"end":41,"label":"appointment_id"}]}
+{"text":"appreciate it","intent":"positive_reply","entities":[]}
+{"text":"of course","intent":"positive_reply","entities":[]}
+{"text":"I'd like to change the time of my progress review.","intent":"reschedule","entities":[{"start":34,"end":49,"label":"appointment_type"}]}
+{"text":"Check Bianchi check schedule for a presentation rehearsal on Friday.","intent":"query_avail","entities":[{"start":6,"end":13,"label":"practitioner_name"},{"start":35,"end":57,"label":"appointment_type"}]}
+{"text":"Change my vehicle inspection \\","intent":"reschedule","entities":[{"start":10,"end":28,"label":"appointment_type"}]}
+{"text":"I'm afraid I have to move my meeting, ref #641930.","intent":"reschedule","entities":[{"start":42,"end":49,"label":"appointment_id"}]}
+{"text":"I need to book a client call.","intent":"schedule","entities":[{"start":17,"end":28,"label":"appointment_type"}]}
+{"text":"I wish to schedule a residence life meeting with Sanna .","intent":"schedule","entities":[{"start":21,"end":43,"label":"appointment_type"},{"start":49,"end":54,"label":"practitioner_name"}]}
+{"text":"i have to get going","intent":"bye","entities":[]}
+{"text":"Get me a faculty review with Torres.","intent":"schedule","entities":[{"start":9,"end":23,"label":"appointment_type"},{"start":29,"end":35,"label":"practitioner_name"}]}
+{"text":"how is your day","intent":"greeting","entities":[]}
+{"text":"Professor Barbieri availability |","intent":"query_avail","entities":[{"start":0,"end":18,"label":"practitioner_name"}]}
+{"text":"I'd wanted to request a cancellation.","intent":"cancel","entities":[]}
+{"text":"roger that","intent":"positive_reply","entities":[]}
+{"text":"Times available to |","intent":"query_avail","entities":[]}
+{"text":"I have to pull hold of my dean's meeting .","intent":"cancel","entities":[{"start":26,"end":40,"label":"appointment_type"}]}
+{"text":"The function #660065 is cancelled.","intent":"cancel","entities":[{"start":13,"end":20,"label":"appointment_id"}]}
+{"text":"that is not right","intent":"negative_reply","entities":[]}
+{"text":"Availability , July 21st.","intent":"query_avail","entities":[]}
+{"text":"I have an language exchange with Dr. Davide Monti that we need to cancel.","intent":"cancel","entities":[{"start":10,"end":27,"label":"appointment_type"},{"start":33,"end":49,"label":"practitioner_name"}]}
+{"text":"Get me on Rizzo application schedule.","intent":"schedule","entities":[{"start":10,"end":15,"label":"practitioner_name"}]}
+{"text":"My client session (ID #230130 ) has a time conflict.","intent":"reschedule","entities":[{"start":22,"end":29,"label":"appointment_id"}]}
+{"text":"Morgan 's next available .","intent":"query_avail","entities":[{"start":0,"end":6,"label":"practitioner_name"}]}
+{"text":"Shift begins meeting with Baker to 3pm.","intent":"reschedule","entities":[{"start":26,"end":31,"label":"practitioner_name"}]}
+{"text":"What are Rossetti 's office ?","intent":"query_avail","entities":[{"start":9,"end":17,"label":"practitioner_name"}]}
+{"text":"regards","intent":"bye","entities":[]}
+{"text":"A conflict has come up for resolving #881822 .","intent":"reschedule","entities":[{"start":37,"end":44,"label":"appointment_id"}]}
+{"text":"Open appointment slots.","intent":"query_avail","entities":[]}
+{"text":"I must reschedule my appointment, namely #004766 .","intent":"reschedule","entities":[{"start":41,"end":48,"label":"appointment_id"}]}
+{"text":"My apologies, therefore I must cancel my annual physical with Galli , ID #334313 .","intent":"cancel","entities":[{"start":41,"end":56,"label":"appointment_type"},{"start":62,"end":67,"label":"practitioner_name"},{"start":73,"end":80,"label":"appointment_id"}]}
+{"text":"you're right","intent":"positive_reply","entities":[]}
+{"text":"Let's set up a time zone connect.","intent":"schedule","entities":[]}
+{"text":"how is my ai doing","intent":"greeting","entities":[]}
+{"text":"give me a list of the top 10 tennis players in the world","intent":"oos","entities":[]}
+{"text":"you want to set up a internship check-in .","intent":"schedule","entities":[{"start":21,"end":40,"label":"appointment_type"}]}
+{"text":"Book a dentist appointment.","intent":"schedule","entities":[]}
+{"text":"I must make the meeting with Professor Sala , so I'm cancelling.","intent":"cancel","entities":[{"start":29,"end":43,"label":"practitioner_name"}]}
+{"text":"Reschedule my personal training session , appointment ID #798223 ","intent":"reschedule","entities":[{"start":14,"end":39,"label":"appointment_type"},{"start":57,"end":64,"label":"appointment_id"}]}
+{"text":"Cancel my one-on-one file Dott. Paolo Farina .","intent":"cancel","entities":[{"start":26,"end":44,"label":"practitioner_name"}]}
+{"text":"i appreciate the assistance","intent":"positive_reply","entities":[]}
+{"text":"what is the most rented movie this week","intent":"oos","entities":[]}
+{"text":"I won't am able to make it.","intent":"reschedule","entities":[]}
+{"text":"Reschedule the tenure meeting with Dr. Giordano, please.","intent":"reschedule","entities":[{"start":15,"end":29,"label":"appointment_type"},{"start":35,"end":47,"label":"practitioner_name"}]}
+{"text":"Cancel the appointment for me.","intent":"cancel","entities":[]}
+{"text":"Display Villa 's free times for a legal consultation |","intent":"query_avail","entities":[{"start":8,"end":13,"label":"practitioner_name"},{"start":34,"end":52,"label":"appointment_type"}]}
+{"text":"I refuse to cancel my appointment #717513 with Dr. Wilson .","intent":"cancel","entities":[{"start":34,"end":41,"label":"appointment_id"},{"start":47,"end":57,"label":"practitioner_name"}]}
+{"text":"nice to speak with you","intent":"bye","entities":[]}
+{"text":"Cancel booking #675180, my career counseling with Dr. Martinez.","intent":"cancel","entities":[{"start":15,"end":22,"label":"appointment_id"},{"start":27,"end":44,"label":"appointment_type"},{"start":50,"end":62,"label":"practitioner_name"}]}
+{"text":"Is it too risky to change my appointment time?","intent":"reschedule","entities":[]}
+{"text":"Dott.ssa Elena Longo 's unavailable this week.","intent":"query_avail","entities":[{"start":0,"end":20,"label":"practitioner_name"}]}
+{"text":"Free text with Dr. Williams this afternoon.","intent":"query_avail","entities":[{"start":15,"end":27,"label":"practitioner_name"}]}
+{"text":"I have to cancel.","intent":"cancel","entities":[]}
+{"text":"Display calendar for oral exams.","intent":"query_avail","entities":[{"start":21,"end":30,"label":"appointment_type"}]}
+{"text":"Set up grant proposal meeting and Testa .","intent":"schedule","entities":[{"start":7,"end":29,"label":"appointment_type"},{"start":34,"end":39,"label":"practitioner_name"}]}
+{"text":"I need a thesis defense rehearsal slot.","intent":"schedule","entities":[{"start":9,"end":33,"label":"appointment_type"}]}
+{"text":"identify me with Dr. Peterson .","intent":"schedule","entities":[{"start":17,"end":29,"label":"practitioner_name"}]}
+{"text":"List all openings for a post-exam review :","intent":"query_avail","entities":[{"start":24,"end":40,"label":"appointment_type"}]}
+{"text":"Free mail with Professor Bruno this afternoon.","intent":"query_avail","entities":[{"start":15,"end":30,"label":"practitioner_name"}]}
+{"text":"Reschedule my first meeting.","intent":"reschedule","entities":[]}
+{"text":"goodbye!","intent":"bye","entities":[]}
+{"text":"Remove my appointment in the calendar.","intent":"cancel","entities":[]}
+{"text":"that is not false","intent":"positive_reply","entities":[]}
+{"text":"I need to change appointment #239161.","intent":"reschedule","entities":[{"start":29,"end":36,"label":"appointment_id"}]}
+{"text":"it was nice to converse with you","intent":"bye","entities":[]}
+{"text":"Available times for a transfer credit evaluation.","intent":"query_avail","entities":[{"start":22,"end":48,"label":"appointment_type"}]}
+{"text":"I need an appointment with Professor Pellegrino.","intent":"schedule","entities":[{"start":27,"end":47,"label":"practitioner_name"}]}
+{"text":"that is not the case","intent":"negative_reply","entities":[]}
+{"text":"Check for openings.","intent":"query_avail","entities":[]}
+{"text":"start a portfolio on venture capital funding for me to look over","intent":"oos","entities":[]}
+{"text":"I need an career counseling |","intent":"schedule","entities":[{"start":10,"end":27,"label":"appointment_type"}]}
+{"text":"Find an algorithm for a student advising .","intent":"query_avail","entities":[{"start":24,"end":40,"label":"appointment_type"}]}
+{"text":"Change my appointment with Prof. David Johnson every Wednesday.","intent":"reschedule","entities":[{"start":27,"end":46,"label":"practitioner_name"}]}
+{"text":"i'm thankful","intent":"positive_reply","entities":[]}
+{"text":"I need to reschedule something.","intent":"reschedule","entities":[]}
+{"text":"I'd like another reschedule.","intent":"reschedule","entities":[]}
+{"text":"it was nice to chat","intent":"bye","entities":[]}
+{"text":"adios","intent":"bye","entities":[]}
+{"text":"Cancel my meeting with you Moore .","intent":"cancel","entities":[{"start":27,"end":32,"label":"practitioner_name"}]}
+{"text":"they want to reschedule booking #990686 .","intent":"reschedule","entities":[{"start":32,"end":39,"label":"appointment_id"}]}
+{"text":"I need to book a time frame discuss my dissertation with Thompson .","intent":"schedule","entities":[{"start":57,"end":65,"label":"practitioner_name"}]}
+{"text":"Cancel my meeting _ Professor Ricci .","intent":"cancel","entities":[{"start":30,"end":35,"label":"practitioner_name"}]}
+{"text":"I need to talk to my advisor.","intent":"schedule","entities":[]}
+{"text":"follow the booking calendar.","intent":"query_avail","entities":[]}
+{"text":"energy availability.","intent":"query_avail","entities":[]}
+{"text":"Please cancel and rebook my schedule","intent":"reschedule","entities":[]}
+{"text":"I decided to delete a scheduled meeting.","intent":"cancel","entities":[]}
+{"text":"find out how many latin scholars there are at the university of chicago","intent":"oos","entities":[]}
+{"text":"Mancini academic integrity hearing ; check.","intent":"query_avail","entities":[{"start":0,"end":7,"label":"practitioner_name"},{"start":8,"end":34,"label":"appointment_type"}]}
+{"text":"please print out copies of my resume","intent":"oos","entities":[]}
+{"text":"List schedule openings for Mr. Jones.","intent":"query_avail","entities":[{"start":27,"end":36,"label":"practitioner_name"}]}
+{"text":"Change by appointment.","intent":"reschedule","entities":[]}
+{"text":"Dr. Williams 's only available slot.","intent":"query_avail","entities":[{"start":0,"end":12,"label":"practitioner_name"}]}
+{"text":"are things going well for you","intent":"greeting","entities":[]}
+{"text":"Can we schedule my appointment #564270 to the afternoon?","intent":"reschedule","entities":[{"start":31,"end":38,"label":"appointment_id"}]}
+{"text":"Cancel !","intent":"cancel","entities":[]}
+{"text":"My email #281149 , needs to be cancelled.","intent":"cancel","entities":[{"start":9,"end":16,"label":"appointment_id"}]}
+{"text":"will you tell me how the ai is doing","intent":"greeting","entities":[]}
+{"text":"thank you ever so much for that!","intent":"positive_reply","entities":[]}
+{"text":"Arrange professor health screening with professor Grassi .","intent":"schedule","entities":[{"start":18,"end":34,"label":"appointment_type"},{"start":50,"end":56,"label":"practitioner_name"}]}
+{"text":"thanks for the help","intent":"positive_reply","entities":[]}
+{"text":"Calendar for next year","intent":"query_avail","entities":[]}
+{"text":"I'm busy #387449 .","intent":"cancel","entities":[{"start":9,"end":16,"label":"appointment_id"}]}
+{"text":"List possible openings for a office hours .","intent":"query_avail","entities":[{"start":29,"end":41,"label":"appointment_type"}]}
+{"text":"Can I get an appointment?","intent":"schedule","entities":[]}
+{"text":"howdy, what's new","intent":"greeting","entities":[]}
+{"text":"that's definitely false","intent":"negative_reply","entities":[]}
+{"text":"always nice to talk to you","intent":"bye","entities":[]}
+{"text":"I need to cancel appointment #737947 with Esposito .","intent":"cancel","entities":[{"start":29,"end":36,"label":"appointment_id"},{"start":42,"end":50,"label":"practitioner_name"}]}
+{"text":"get me articles on earthquake preparedness","intent":"oos","entities":[]}
+{"text":"that would be a no","intent":"negative_reply","entities":[]}
+{"text":"List support for a letter of recommendation request with Mr. Peterson .","intent":"query_avail","entities":[{"start":19,"end":51,"label":"appointment_type"},{"start":57,"end":69,"label":"practitioner_name"}]}
+{"text":"I need to have a new time for my postdoctoral interview .","intent":"reschedule","entities":[{"start":33,"end":55,"label":"appointment_type"}]}
+{"text":"I want to arrange a faculty meeting.","intent":"schedule","entities":[{"start":20,"end":35,"label":"appointment_type"}]}
+{"text":"i am thankful for the answer","intent":"positive_reply","entities":[]}
+{"text":"Schedule a massage therapy for my group with Professor De Luca.","intent":"schedule","entities":[{"start":11,"end":26,"label":"appointment_type"},{"start":45,"end":62,"label":"practitioner_name"}]}
+{"text":"you're the best!","intent":"positive_reply","entities":[]}
+{"text":"I require matching qualifying exam with Dott. Marco Conti .","intent":"schedule","entities":[{"start":19,"end":34,"label":"appointment_type"},{"start":40,"end":57,"label":"practitioner_name"}]}
+{"text":"how many miles does my car currently have","intent":"oos","entities":[]}
+{"text":"which movie is it that someone says perfectly balanced as all things should be","intent":"oos","entities":[]}
+{"text":"how are things with you","intent":"greeting","entities":[]}
+{"text":"great, thanks!","intent":"positive_reply","entities":[]}
+{"text":"Free times each week.","intent":"query_avail","entities":[]}
+{"text":"Regarding appointment #934189, I want to cancel.","intent":"cancel","entities":[{"start":22,"end":29,"label":"appointment_id"}]}
+{"text":"good answer, thanks for providing it","intent":"positive_reply","entities":[]}
+{"text":"Shift my pet checkup to another directory","intent":"reschedule","entities":[{"start":9,"end":20,"label":"appointment_type"}]}
+{"text":"Shift my research seminar to another day.","intent":"reschedule","entities":[{"start":9,"end":25,"label":"appointment_type"}]}
+{"text":"Could you find a new time for posting course planning ?","intent":"reschedule","entities":[{"start":38,"end":53,"label":"appointment_type"}]}
+{"text":"Display Green 's appointment times for a eye exam .","intent":"query_avail","entities":[{"start":8,"end":13,"label":"practitioner_name"},{"start":41,"end":49,"label":"appointment_type"}]}
+{"text":"Please remove the workshop and Torres from my schedule.","intent":"cancel","entities":[{"start":18,"end":26,"label":"appointment_type"},{"start":31,"end":37,"label":"practitioner_name"}]}
+{"text":"the answer to that is affirmative","intent":"positive_reply","entities":[]}
+{"text":"I'd like to change the time of execution progress review .","intent":"reschedule","entities":[{"start":41,"end":56,"label":"appointment_type"}]}
+{"text":"many times to meet with Longo .","intent":"query_avail","entities":[{"start":24,"end":29,"label":"practitioner_name"}]}
+{"text":"I need to align my practicum supervision with Professor Sala (ID: #676483 ).","intent":"cancel","entities":[{"start":19,"end":40,"label":"appointment_type"},{"start":46,"end":60,"label":"practitioner_name"},{"start":66,"end":73,"label":"appointment_id"}]}
+{"text":"yes that's correct","intent":"positive_reply","entities":[]}
+{"text":"Book me with Basile.","intent":"schedule","entities":[{"start":13,"end":19,"label":"practitioner_name"}]}
+{"text":"hey how's it hanging","intent":"greeting","entities":[]}
+{"text":"Find available meeting address with Dott.ssa Chiara Negri .","intent":"query_avail","entities":[{"start":36,"end":57,"label":"practitioner_name"}]}
+{"text":"that is overwhelmingly false","intent":"negative_reply","entities":[]}
+{"text":"I'd like to create a course planning .","intent":"schedule","entities":[{"start":21,"end":36,"label":"appointment_type"}]}
+{"text":"Book me write a annual physical with Turner .","intent":"schedule","entities":[{"start":16,"end":31,"label":"appointment_type"},{"start":37,"end":43,"label":"practitioner_name"}]}
+{"text":"Find new time for #536444.","intent":"reschedule","entities":[{"start":18,"end":25,"label":"appointment_id"}]}
+{"text":"vacuum out the car","intent":"oos","entities":[]}
+{"text":"List = free times for Professor Marino .","intent":"query_avail","entities":[{"start":22,"end":38,"label":"practitioner_name"}]}
+{"text":"The meeting with Dott. Paolo Farina (ref #928021 ) remains no longer required.","intent":"cancel","entities":[{"start":17,"end":35,"label":"practitioner_name"},{"start":41,"end":48,"label":"appointment_id"}]}
+{"text":"I'd like to book a project kickoff for next week.","intent":"schedule","entities":[{"start":19,"end":34,"label":"appointment_type"}]}
+{"text":"I want to cancel my final project review appointment.","intent":"cancel","entities":[{"start":20,"end":40,"label":"appointment_type"}]}
+{"text":"Cancel my therapy session.","intent":"cancel","entities":[]}
+{"text":"Move my progress review with Testa to Friday.","intent":"reschedule","entities":[{"start":8,"end":23,"label":"appointment_type"},{"start":29,"end":34,"label":"practitioner_name"}]}
+{"text":"hello, how is it going","intent":"greeting","entities":[]}
+{"text":"Let's schedule entry thesis committee meeting .","intent":"schedule","entities":[{"start":21,"end":45,"label":"appointment_type"}]}
+{"text":"Please void my scheduled .","intent":"cancel","entities":[]}
+{"text":"bonjour","intent":"greeting","entities":[]}
+{"text":"hi there, how are things","intent":"greeting","entities":[]}
+{"text":"My plans have changed and I have to cancel.","intent":"cancel","entities":[]}
+{"text":"I'd like to cancel the meeting I have with Bell ?","intent":"cancel","entities":[{"start":43,"end":47,"label":"practitioner_name"}]}
+{"text":"hey how's it going","intent":"greeting","entities":[]}
+{"text":"Book a qualifying exam with Prof. David Johnson as soon as possible.","intent":"schedule","entities":[{"start":7,"end":22,"label":"appointment_type"},{"start":28,"end":47,"label":"practitioner_name"}]}
+{"text":"Check Dr. Smith's calendar for a office hours.","intent":"query_avail","entities":[{"start":6,"end":15,"label":"practitioner_name"},{"start":33,"end":45,"label":"appointment_type"}]}
+{"text":"we need to cancel my defense rehearsal.","intent":"cancel","entities":[]}
+{"text":"List open slots.","intent":"query_avail","entities":[]}
+{"text":"what is a semitic language","intent":"oos","entities":[]}
+{"text":"• to speak to Mr. Rogers .","intent":"schedule","entities":[{"start":14,"end":24,"label":"practitioner_name"}]}
+{"text":"Let's set up a time to connect.","intent":"schedule","entities":[]}
+{"text":"Can they schedule a meeting?","intent":"schedule","entities":[]}
+{"text":"Free times add a lab cleanup next week.","intent":"query_avail","entities":[{"start":17,"end":28,"label":"appointment_type"}]}
+{"text":"Availability for colloquio di orientamento s this ?","intent":"query_avail","entities":[{"start":17,"end":42,"label":"appointment_type"}]}
+{"text":"thank you a lot for that answer","intent":"positive_reply","entities":[]}
+{"text":"haircut availability.","intent":"query_avail","entities":[{"start":0,"end":7,"label":"appointment_type"}]}
+{"text":"false for sure","intent":"negative_reply","entities":[]}
+{"text":"all the free slots on the calendar.","intent":"query_avail","entities":[]}
+{"text":"I have to reschedule my immunization shot with Dr. Ferrara from tomorrow to tomorrow week.","intent":"reschedule","entities":[{"start":24,"end":41,"label":"appointment_type"},{"start":47,"end":58,"label":"practitioner_name"}]}
+{"text":"hi, how are you today","intent":"greeting","entities":[]}
+{"text":"I'm writing to inform you of the cancellation of my peer tutoring with Wright, ID #682163.","intent":"cancel","entities":[{"start":52,"end":65,"label":"appointment_type"},{"start":71,"end":77,"label":"practitioner_name"},{"start":82,"end":89,"label":"appointment_id"}]}
+{"text":"I need to change my progress review with Mrs. Evans, ID is #962592.","intent":"reschedule","entities":[{"start":20,"end":35,"label":"appointment_type"},{"start":41,"end":51,"label":"practitioner_name"},{"start":59,"end":66,"label":"appointment_id"}]}
+{"text":"Openings on the calendar.","intent":"query_avail","entities":[]}
+{"text":"Can we push my appointment #150062 to the server","intent":"reschedule","entities":[{"start":27,"end":34,"label":"appointment_id"}]}
+{"text":"Show openings for a oral exam this relation","intent":"query_avail","entities":[{"start":20,"end":29,"label":"appointment_type"}]}
+{"text":"I would like to arrange  course selection advising with Mr. Adams .","intent":"schedule","entities":[{"start":25,"end":50,"label":"appointment_type"},{"start":56,"end":65,"label":"practitioner_name"}]}
+{"text":"Reschedule my meeting with Russo regarding my thesis.","intent":"reschedule","entities":[{"start":27,"end":32,"label":"practitioner_name"}]}
+{"text":"Postpone my request #113852 .","intent":"reschedule","entities":[{"start":20,"end":27,"label":"appointment_id"}]}
+{"text":"Cancel my office hours appointment with Prof. Parker |","intent":"cancel","entities":[{"start":40,"end":52,"label":"practitioner_name"}]}
+{"text":"see ya!","intent":"bye","entities":[]}
+{"text":"that's totally wrong!","intent":"negative_reply","entities":[]}
+{"text":"should we reschedule? I'm referring to appointment #821730 .","intent":"reschedule","entities":[{"start":51,"end":58,"label":"appointment_id"}]}
+{"text":"Please confirm cancellation for #420831.","intent":"cancel","entities":[{"start":32,"end":39,"label":"appointment_id"}]}
+{"text":"I won't make it, so please cancel.","intent":"cancel","entities":[]}
+{"text":"} book a meeting with Cook .","intent":"schedule","entities":[{"start":22,"end":26,"label":"practitioner_name"}]}
+{"text":"Let's set up enough time to connect.","intent":"schedule","entities":[]}
+{"text":"when will the daffodils bloom this year","intent":"oos","entities":[]}
+{"text":"Schedule ends with Dr. Martinez .","intent":"schedule","entities":[{"start":19,"end":31,"label":"practitioner_name"}]}
+{"text":"hiya","intent":"greeting","entities":[]}
+{"text":"Rebook an appointment.","intent":"reschedule","entities":[]}
+{"text":"tell me about personal finance","intent":"oos","entities":[]}
+{"text":"vaccination ;","intent":"schedule","entities":[{"start":0,"end":11,"label":"appointment_type"}]}
+{"text":"Book a study group meeting , ","intent":"schedule","entities":[{"start":7,"end":26,"label":"appointment_type"}]}
+{"text":"initiate my advising session with Mrs. Evans .","intent":"reschedule","entities":[{"start":34,"end":44,"label":"practitioner_name"}]}
+{"text":"I'd like the book a consultation.","intent":"schedule","entities":[]}
+{"text":"Is it too late ? change my appointment time?","intent":"reschedule","entities":[]}
+{"text":"Change #113852 }","intent":"reschedule","entities":[{"start":7,"end":14,"label":"appointment_id"}]}
+{"text":"sorry, that is not true","intent":"negative_reply","entities":[]}
+{"text":"replace slots with Prof. Garcia for a annual physical this afternoon.","intent":"query_avail","entities":[{"start":19,"end":31,"label":"practitioner_name"},{"start":38,"end":53,"label":"appointment_type"}]}
+{"text":"I would like to push my appointment #684309 back by an hour.","intent":"reschedule","entities":[{"start":36,"end":43,"label":"appointment_id"}]}
+{"text":"your answer was good","intent":"positive_reply","entities":[]}
+{"text":"List all entries for a student feedback session with Brown .","intent":"query_avail","entities":[{"start":23,"end":47,"label":"appointment_type"},{"start":53,"end":58,"label":"practitioner_name"}]}
+{"text":"Is it possible to schedule a .","intent":"schedule","entities":[]}
+{"text":"what will it take to achieve world peace","intent":"oos","entities":[]}
+{"text":"I wish to have a portfolio review .","intent":"schedule","entities":[{"start":17,"end":33,"label":"appointment_type"}]}
+{"text":"how are you this fine day","intent":"greeting","entities":[]}
+{"text":"\\ my mentorship meeting .","intent":"reschedule","entities":[{"start":5,"end":23,"label":"appointment_type"}]}
+{"text":"we must reschedule my appointment, reference #795063 .","intent":"reschedule","entities":[{"start":45,"end":52,"label":"appointment_id"}]}
+{"text":"Talk : Galli .","intent":"schedule","entities":[{"start":7,"end":12,"label":"practitioner_name"}]}
+{"text":"List times for a writing center appointment with Dr. Lefevre.","intent":"query_avail","entities":[{"start":17,"end":43,"label":"appointment_type"},{"start":49,"end":60,"label":"practitioner_name"}]}
+{"text":"Openings in lunar calendar.","intent":"query_avail","entities":[]}
+{"text":"Due to unforeseen circumstances, I have to make appointment #230130 .","intent":"cancel","entities":[{"start":60,"end":67,"label":"appointment_id"}]}
+{"text":"I shall no longer make my meeting #310528 .","intent":"reschedule","entities":[{"start":34,"end":41,"label":"appointment_id"}]}
+{"text":"Let's move through major declaration meeting .","intent":"reschedule","entities":[{"start":19,"end":44,"label":"appointment_type"}]}
+{"text":"Book a new ?","intent":"schedule","entities":[]}
+{"text":"how much is this years model of my car cost","intent":"oos","entities":[]}
+{"text":"Can I make an appointment _ a dean's meeting ?","intent":"schedule","entities":[{"start":30,"end":44,"label":"appointment_type"}]}
+{"text":"it was great to speak with you","intent":"bye","entities":[]}
+{"text":"That time no longer works on me.","intent":"reschedule","entities":[]}
+{"text":"clients can't attend the final presentation .","intent":"reschedule","entities":[{"start":25,"end":43,"label":"appointment_type"}]}
+{"text":"Set up a tutorial program Brown .","intent":"schedule","entities":[{"start":26,"end":31,"label":"practitioner_name"}]}
+{"text":"Create a new meeting.","intent":"schedule","entities":[]}
+{"text":"Book me for scheduling grade review with Dr. Martinez .","intent":"schedule","entities":[{"start":23,"end":35,"label":"appointment_type"},{"start":41,"end":53,"label":"practitioner_name"}]}
+{"text":"check my booking.","intent":"cancel","entities":[]}
+{"text":"Find an empty slot for a honors thesis meeting .","intent":"schedule","entities":[{"start":25,"end":46,"label":"appointment_type"}]}
+{"text":"I need to change the time of my defense rehearsal with Dr. Davide Monti.","intent":"reschedule","entities":[{"start":55,"end":71,"label":"practitioner_name"}]}
+{"text":"Can we change my tutorial session time?","intent":"reschedule","entities":[]}
+{"text":"Book a lab session : Testa .","intent":"schedule","entities":[{"start":21,"end":26,"label":"practitioner_name"}]}
+{"text":"what year was jane austen born","intent":"oos","entities":[]}
+{"text":"no, that is wrong","intent":"negative_reply","entities":[]}
+{"text":"I need to cancel my appointments with Dott.ssa Chiara Negri .","intent":"cancel","entities":[{"start":38,"end":59,"label":"practitioner_name"}]}
+{"text":"Cancel my messaging session with Russo .","intent":"cancel","entities":[{"start":33,"end":38,"label":"practitioner_name"}]}
+{"text":"good to see you","intent":"greeting","entities":[]}
+{"text":"that's a yes from me","intent":"positive_reply","entities":[]}
+{"text":"Change my appointment with Dott.ssa Valentina Bellini on Wednesday.","intent":"reschedule","entities":[{"start":27,"end":53,"label":"practitioner_name"}]}
+{"text":"it was lovely to speak with you","intent":"bye","entities":[]}
+{"text":"I'm cancelling. The password is #018673 .","intent":"cancel","entities":[{"start":32,"end":39,"label":"appointment_id"}]}
+{"text":"I have provided #568999 with Professor Schmidt that needs rescheduling.","intent":"reschedule","entities":[{"start":16,"end":23,"label":"appointment_id"},{"start":29,"end":46,"label":"practitioner_name"}]}
+{"text":"Regarding appointment #623599 , I decided to change it.","intent":"reschedule","entities":[{"start":22,"end":29,"label":"appointment_id"}]}
+{"text":"I would like not change my appointment, ID #222382 .","intent":"reschedule","entities":[{"start":43,"end":50,"label":"appointment_id"}]}
+{"text":"Book mental health counseling ","intent":"schedule","entities":[{"start":5,"end":29,"label":"appointment_type"}]}
+{"text":"When is Pellegrini free for example portfolio review .","intent":"query_avail","entities":[{"start":8,"end":18,"label":"practitioner_name"},{"start":36,"end":52,"label":"appointment_type"}]}
+{"text":"Please cancel my attendance for the research group meeting.","intent":"cancel","entities":[{"start":36,"end":58,"label":"appointment_type"}]}
+{"text":"that is a completely false statement","intent":"negative_reply","entities":[]}
+{"text":"Schedule my oral examinations","intent":"schedule","entities":[]}
+{"text":"I need \\ cancel booking #004766 .","intent":"cancel","entities":[{"start":24,"end":31,"label":"appointment_id"}]}
+{"text":"see you later!","intent":"bye","entities":[]}
+{"text":"why do we dream","intent":"oos","entities":[]}
+{"text":"Find an opening.","intent":"query_avail","entities":[]}
+{"text":"I have to reschedule my project update with Conti from thursday to next week.","intent":"reschedule","entities":[{"start":24,"end":38,"label":"appointment_type"},{"start":44,"end":49,"label":"practitioner_name"}]}
+{"text":"I want to reschedule my talk with Nowak .","intent":"reschedule","entities":[{"start":34,"end":39,"label":"practitioner_name"}]}
+{"text":"Dr. King availability check.","intent":"query_avail","entities":[{"start":0,"end":8,"label":"practitioner_name"}]}
+{"text":"visitors need to make an appointment.","intent":"schedule","entities":[]}
+{"text":"Ms. Davis 's free documentation for a tenure meeting today.","intent":"query_avail","entities":[{"start":0,"end":9,"label":"practitioner_name"},{"start":38,"end":52,"label":"appointment_type"}]}
+{"text":"an appointment is no longer needed.","intent":"cancel","entities":[]}
+{"text":"I want to change my password with Baker .","intent":"reschedule","entities":[{"start":34,"end":39,"label":"practitioner_name"}]}
+{"text":"Change in appointment.","intent":"reschedule","entities":[]}
+{"text":"Cancel my appointment with booking reference #356641 |","intent":"cancel","entities":[{"start":45,"end":52,"label":"appointment_id"}]}
+{"text":"Cancel _ academic probation meeting with Prof. Morris , please.","intent":"cancel","entities":[{"start":9,"end":35,"label":"appointment_type"},{"start":41,"end":53,"label":"practitioner_name"}]}
+{"text":"is looking to schedule a course selection advising .","intent":"schedule","entities":[{"start":25,"end":50,"label":"appointment_type"}]}
+{"text":"I refuse to meet.","intent":"schedule","entities":[]}
+{"text":"I must create a makeup exam with Thomas this week.","intent":"schedule","entities":[{"start":16,"end":27,"label":"appointment_type"},{"start":33,"end":39,"label":"practitioner_name"}]}
+{"text":"I need to cancel booking #886239.","intent":"cancel","entities":[{"start":25,"end":32,"label":"appointment_id"}]}
+{"text":"I have no scheduling conflict.","intent":"reschedule","entities":[]}
+{"text":"^ Evans .","intent":"schedule","entities":[{"start":2,"end":7,"label":"practitioner_name"}]}
+{"text":"I need an appointment name Dott. Matteo Palmieri for a admissions interview .","intent":"schedule","entities":[{"start":27,"end":48,"label":"practitioner_name"},{"start":55,"end":75,"label":"appointment_type"}]}
+{"text":"you have appointment #531844 with De Angelis that needs rescheduling.","intent":"reschedule","entities":[{"start":21,"end":28,"label":"appointment_id"},{"start":34,"end":44,"label":"practitioner_name"}]}
+{"text":"Check Fiore 's calendar for  advising session .","intent":"query_avail","entities":[{"start":6,"end":11,"label":"practitioner_name"},{"start":29,"end":45,"label":"appointment_type"}]}
+{"text":"I'd prefer to talk to Villa .","intent":"schedule","entities":[{"start":22,"end":27,"label":"practitioner_name"}]}
+{"text":"I need to reschedule my file the ID is #781883 .","intent":"reschedule","entities":[{"start":39,"end":46,"label":"appointment_id"}]}
+{"text":"Book me ?","intent":"schedule","entities":[]}
+{"text":"Please move to client call with Lombardi , booking ref #822368 .","intent":"reschedule","entities":[{"start":15,"end":26,"label":"appointment_type"},{"start":32,"end":40,"label":"practitioner_name"},{"start":55,"end":62,"label":"appointment_id"}]}
+{"text":"My vaccination with Mr. Jones needs to be rescheduled.","intent":"reschedule","entities":[{"start":3,"end":14,"label":"appointment_type"},{"start":20,"end":29,"label":"practitioner_name"}]}
+{"text":"The meeting #984794 is cancelled.","intent":"cancel","entities":[{"start":12,"end":19,"label":"appointment_id"}]}
+{"text":"not right now","intent":"negative_reply","entities":[]}
+{"text":"how do i get venture capital for my app","intent":"oos","entities":[]}
+{"text":"Book Wright.","intent":"schedule","entities":[{"start":5,"end":11,"label":"practitioner_name"}]}
+{"text":"who was the first person to discover cells","intent":"oos","entities":[]}
+{"text":"i gotta say no","intent":"negative_reply","entities":[]}
+{"text":"class registration }","intent":"query_avail","entities":[{"start":0,"end":18,"label":"appointment_type"}]}
+{"text":"thanks, bye","intent":"bye","entities":[]}
+{"text":"uh-huh","intent":"positive_reply","entities":[]}
+{"text":"does denim go with anything","intent":"oos","entities":[]}
+{"text":"Openings for a library research consultation or Moore tomorrow.","intent":"query_avail","entities":[{"start":15,"end":44,"label":"appointment_type"},{"start":48,"end":53,"label":"practitioner_name"}]}
+{"text":"My strategy meeting with Bianchi needs always be rescheduled.","intent":"reschedule","entities":[{"start":3,"end":19,"label":"appointment_type"},{"start":25,"end":32,"label":"practitioner_name"}]}
+{"text":"that is not factual","intent":"negative_reply","entities":[]}
+{"text":"I have a thesis proposal meeting with Colombo that I need never move.","intent":"reschedule","entities":[{"start":9,"end":32,"label":"appointment_type"},{"start":38,"end":45,"label":"practitioner_name"}]}
+{"text":"I must begin booking #988746 .","intent":"cancel","entities":[{"start":21,"end":28,"label":"appointment_id"}]}
+{"text":"Can I get on Rinaldi 's ?","intent":"schedule","entities":[{"start":13,"end":20,"label":"practitioner_name"}]}
+{"text":"ill pass","intent":"negative_reply","entities":[]}
+{"text":"This is a list for my appointment with Bianchi .","intent":"cancel","entities":[{"start":39,"end":46,"label":"practitioner_name"}]}
+{"text":"nice seeing you bye","intent":"bye","entities":[]}
+{"text":"Please proceed with cancelling my appointment with Santini >","intent":"cancel","entities":[{"start":51,"end":58,"label":"practitioner_name"}]}
+{"text":"that'd be a no","intent":"negative_reply","entities":[]}
+{"text":"so how is everything","intent":"greeting","entities":[]}
+{"text":"nice talking again, bye","intent":"bye","entities":[]}
+{"text":"Dr. Williams 's free times for instance degree audit today.","intent":"query_avail","entities":[{"start":0,"end":12,"label":"practitioner_name"},{"start":40,"end":52,"label":"appointment_type"}]}
+{"text":"Let's schedule a strategy meeting ;","intent":"schedule","entities":[{"start":17,"end":33,"label":"appointment_type"}]}
+{"text":"Advising resource availability.","intent":"query_avail","entities":[]}
+{"text":"I can't make my scheduled date","intent":"reschedule","entities":[]}
+{"text":"Book an appointment for ?","intent":"schedule","entities":[]}
+{"text":"patients need to change appointment #915298 .","intent":"reschedule","entities":[{"start":36,"end":43,"label":"appointment_id"}]}
+{"text":"that's not right","intent":"negative_reply","entities":[]}
+{"text":"I must proceed with Marchetti .","intent":"schedule","entities":[{"start":20,"end":29,"label":"practitioner_name"}]}
+{"text":"that seems true","intent":"positive_reply","entities":[]}
+{"text":"I need to cancel appointments #692463 .","intent":"cancel","entities":[{"start":30,"end":37,"label":"appointment_id"}]}
+{"text":"update the booking calendar for Santini .","intent":"query_avail","entities":[{"start":32,"end":39,"label":"practitioner_name"}]}
+{"text":"I want to book you with Professor Mariani .","intent":"schedule","entities":[{"start":24,"end":41,"label":"practitioner_name"}]}
+{"text":"thank you so very much","intent":"positive_reply","entities":[]}
+{"text":"Cancel my office hours appointment with Pagano.","intent":"cancel","entities":[{"start":40,"end":46,"label":"practitioner_name"}]}
+{"text":"I must cancel my advising session with Stewart \\","intent":"cancel","entities":[{"start":17,"end":33,"label":"appointment_type"},{"start":39,"end":46,"label":"practitioner_name"}]}
+{"text":"I'd like my book an appointment.","intent":"schedule","entities":[]}
+{"text":"how is it going my friend","intent":"greeting","entities":[]}
+{"text":"no that isn't it","intent":"negative_reply","entities":[]}
+{"text":"I need to reschedule to talk with Ms. Davis .","intent":"reschedule","entities":[{"start":34,"end":43,"label":"practitioner_name"}]}
+{"text":"I need to book an advising session.","intent":"schedule","entities":[]}
+{"text":"My curriculum planning , booking #017187 , with Dr. Angela White is ;","intent":"cancel","entities":[{"start":3,"end":22,"label":"appointment_type"},{"start":33,"end":40,"label":"appointment_id"},{"start":48,"end":64,"label":"practitioner_name"}]}
+{"text":"Project file slots with Esposito .","intent":"query_avail","entities":[{"start":24,"end":32,"label":"practitioner_name"}]}
+{"text":"Reschedule my meeting with Dott.ssa Anna Moretti for my thesis.","intent":"reschedule","entities":[{"start":27,"end":48,"label":"practitioner_name"}]}
+{"text":"Need also book a slot.","intent":"schedule","entities":[]}
+{"text":"James many times.","intent":"query_avail","entities":[{"start":0,"end":5,"label":"practitioner_name"}]}
+{"text":"I want to cancel my appointment with Dr. Stefano Marchese }","intent":"cancel","entities":[{"start":37,"end":57,"label":"practitioner_name"}]}
+{"text":"Can I get google Mrs. Evans 's calendar?","intent":"schedule","entities":[{"start":17,"end":27,"label":"practitioner_name"}]}
+{"text":"Please cancel an appointment with ID #886239 .","intent":"cancel","entities":[{"start":37,"end":44,"label":"appointment_id"}]}
+{"text":"Please remove id #419544 from the schedule.","intent":"cancel","entities":[{"start":17,"end":24,"label":"appointment_id"}]}
+{"text":"Find available multiple times.","intent":"query_avail","entities":[]}
+{"text":"Availability for a lab environment","intent":"query_avail","entities":[]}
+{"text":"that's not correct","intent":"negative_reply","entities":[]}
+{"text":"I'd have to reschedule my massage therapy .","intent":"reschedule","entities":[{"start":26,"end":41,"label":"appointment_type"}]}
+{"text":"what big news happened over the weekend","intent":"oos","entities":[]}
+{"text":"Drop my appointment.","intent":"cancel","entities":[]}
+{"text":"Create a new !","intent":"schedule","entities":[]}
+{"text":"Can I change file therapy session with Lombardi ?","intent":"reschedule","entities":[{"start":18,"end":33,"label":"appointment_type"},{"start":39,"end":47,"label":"practitioner_name"}]}
+{"text":"Is it possible ? move my appointment?","intent":"reschedule","entities":[]}
+{"text":"Can I change my student feedback session with Ricci?","intent":"reschedule","entities":[{"start":16,"end":40,"label":"appointment_type"},{"start":46,"end":51,"label":"practitioner_name"}]}
+{"text":"thanks for talking","intent":"bye","entities":[]}
+{"text":"how are you doing, ai","intent":"greeting","entities":[]}
+{"text":"Cancel appointment #568999.","intent":"cancel","entities":[{"start":19,"end":26,"label":"appointment_id"}]}
+{"text":"Show function for equipment training s.","intent":"query_avail","entities":[{"start":18,"end":36,"label":"appointment_type"}]}
+{"text":"Booking #141591 needs to be moved.","intent":"reschedule","entities":[{"start":8,"end":15,"label":"appointment_id"}]}
+{"text":"i do not think that is proper","intent":"negative_reply","entities":[]}
+{"text":"My plans have ended can I move my residence life meeting ?","intent":"reschedule","entities":[{"start":34,"end":56,"label":"appointment_type"}]}
+{"text":"Set up a ;","intent":"schedule","entities":[]}
+{"text":"click for Dr. Caterina Gentile .","intent":"query_avail","entities":[{"start":10,"end":30,"label":"practitioner_name"}]}
+{"text":"I need some talk to my advisor.","intent":"schedule","entities":[]}
+{"text":"I need to reschedule with Ms. Kelly.","intent":"reschedule","entities":[{"start":26,"end":35,"label":"practitioner_name"}]}
+{"text":"Find an opening for a thesis proposal meeting.","intent":"query_avail","entities":[{"start":22,"end":45,"label":"appointment_type"}]}
+{"text":"Can you hear me reschedule #675180 ?","intent":"reschedule","entities":[{"start":27,"end":34,"label":"appointment_id"}]}
+{"text":"My meeting with Caruso has to be resolved","intent":"reschedule","entities":[{"start":16,"end":22,"label":"practitioner_name"}]}
+{"text":"thank you very much for the assistance","intent":"positive_reply","entities":[]}
+{"text":"i enjoyed speaking with you","intent":"bye","entities":[]}
+{"text":"Cancel my booking.","intent":"cancel","entities":[]}
+{"text":"I'd like to cancel the meeting I have with Pagano.","intent":"cancel","entities":[{"start":43,"end":49,"label":"practitioner_name"}]}
+{"text":"I'm waiting #901602 .","intent":"cancel","entities":[{"start":12,"end":19,"label":"appointment_id"}]}
+{"text":"Free times follow a group project session with Dr. Santoro next week.","intent":"query_avail","entities":[{"start":20,"end":41,"label":"appointment_type"},{"start":47,"end":58,"label":"practitioner_name"}]}
+{"text":"I wanted to schedule a meeting with Richardson .","intent":"schedule","entities":[{"start":36,"end":46,"label":"practitioner_name"}]}
+{"text":"Availability for this .","intent":"query_avail","entities":[]}
+{"text":"I require a brainstorming session = Professor Sala .","intent":"schedule","entities":[{"start":12,"end":33,"label":"appointment_type"},{"start":36,"end":50,"label":"practitioner_name"}]}
+{"text":"Delete booking #107210 from database system.","intent":"cancel","entities":[{"start":15,"end":22,"label":"appointment_id"}]}
+{"text":"I'd like to get on the beach","intent":"schedule","entities":[]}
+{"text":"Show your booking calendar for a lab cleanup with Professor Sartori .","intent":"query_avail","entities":[{"start":33,"end":44,"label":"appointment_type"},{"start":50,"end":67,"label":"practitioner_name"}]}
+{"text":"why, hello bandit","intent":"greeting","entities":[]}
+{"text":"that has to be false","intent":"negative_reply","entities":[]}
+{"text":"hello, are you doing alright","intent":"greeting","entities":[]}
+{"text":"Villa | free times today.","intent":"query_avail","entities":[{"start":0,"end":5,"label":"practitioner_name"}]}
+{"text":"Regarding id #758129 , I want to cancel.","intent":"cancel","entities":[{"start":13,"end":20,"label":"appointment_id"}]}
+{"text":"I need your book an advising session.","intent":"schedule","entities":[]}
+{"text":"i void my scheduled session.","intent":"cancel","entities":[]}
+{"text":"I need to talk to Nowak for a client presentation ;","intent":"schedule","entities":[{"start":18,"end":23,"label":"practitioner_name"},{"start":30,"end":49,"label":"appointment_type"}]}
+{"text":"security check.","intent":"query_avail","entities":[]}
+{"text":"good bye","intent":"bye","entities":[]}
+{"text":"no that isn't correct","intent":"negative_reply","entities":[]}
+{"text":"I need to cancel an existing booking.","intent":"cancel","entities":[]}
+{"text":"I need to move my advising session, which is appointment #355543.","intent":"reschedule","entities":[{"start":57,"end":64,"label":"appointment_id"}]}
+{"text":"hey hey!","intent":"greeting","entities":[]}
+{"text":"I won't be there, please cancel my meeting.","intent":"cancel","entities":[]}
+{"text":"Next available slot.","intent":"query_avail","entities":[]}
+{"text":"Check schedule .","intent":"query_avail","entities":[]}

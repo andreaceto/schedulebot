@@ -1,0 +1,144 @@
+text,intent
+"I need to reschedule my appointment.",reschedule
+"Can I change my appointment time?",reschedule
+"I need to move my meeting.",reschedule
+"I can't make my scheduled appointment.",reschedule
+"I need to find a different time for my meeting.",reschedule
+"My schedule has changed, I need to reschedule.",reschedule
+"I have a conflict with my current appointment time.",reschedule
+"I'd like to reschedule.",reschedule
+"Is it possible to move my appointment?",reschedule
+"Change my booking.",reschedule
+"I need to postpone my session.",reschedule
+"Can we find another time?",reschedule
+"Something came up, I need to change my appointment.",reschedule
+"Let's move my scheduled meeting.",reschedule
+"I would like to reschedule.",reschedule
+"Reschedule my appointment, please.",reschedule
+"I need to push my meeting back.",reschedule
+"Can I bring my appointment forward?",reschedule
+"I won't be able to make it.",reschedule
+"I need a new time slot.",reschedule
+"Alter my appointment.",reschedule
+"Need to change an existing appointment.",reschedule
+"I have to move something on my calendar.",reschedule
+"I'd like to shift my appointment to a later time.",reschedule
+"I have an appointment I need to change.",reschedule
+"Reschedule my appointment with ID {appointment_id}.",reschedule
+"I need to change appointment {appointment_id}.",reschedule
+"Please move my booking {appointment_id}.",reschedule
+"I can't make it to appointment {appointment_id}.",reschedule
+"I want to reschedule booking {appointment_id}.",reschedule
+"Change the time for meeting {appointment_id}.",reschedule
+"Let's find a new time for {appointment_id}.",reschedule
+"Reschedule {appointment_id}.",reschedule
+"A conflict has come up for appointment {appointment_id}.",reschedule
+"Postpone my appointment {appointment_id}.",reschedule
+"I need to change the date for {appointment_id}.",reschedule
+"Can you help me reschedule {appointment_id}?",reschedule
+"I would like to change my appointment, ID {appointment_id}.",reschedule
+"Booking {appointment_id} needs to be moved.",reschedule
+"Shift appointment {appointment_id} to next week.",reschedule
+"Let's reschedule appointment {appointment_id}.",reschedule
+"I can no longer make my meeting {appointment_id}.",reschedule
+"Regarding appointment {appointment_id}, I need to change it.",reschedule
+"Please find a new slot for {appointment_id}.",reschedule
+"I must reschedule my appointment, reference {appointment_id}.",reschedule
+"I have to reschedule my {appointment_type}.",reschedule
+"Can I change my {appointment_type} with {practitioner_name}?",reschedule
+"I need to move my meeting with {practitioner_name}.",reschedule
+"I'd like to reschedule my {appointment_type}.",reschedule
+"Change my advising session with {practitioner_name}.",reschedule
+"I need to find a new time for my {appointment_type}.",reschedule
+"Reschedule my meeting with Professor {practitioner_name}.",reschedule
+"I can't make my {appointment_type} on Tuesday.",reschedule
+"I have to postpone my office hours visit with {practitioner_name}.",reschedule
+"I'd like to change the time of my {appointment_type}.",reschedule
+"I need to reschedule my talk with {practitioner_name}.",reschedule
+"Move my {appointment_type} with {practitioner_name} to Friday.",reschedule
+"I have a {appointment_type} with {practitioner_name} that I need to move.",reschedule
+"Can we reschedule the {appointment_type} I have with {practitioner_name}?",reschedule
+"I want to change my appointment with {practitioner_name}.",reschedule
+"I need to change my lab session.",reschedule
+"Reschedule my project meeting.",reschedule
+"I can't make my advising session with {practitioner_name}.",reschedule
+"I'd like to move my thesis discussion.",reschedule
+"Postpone my meeting with {practitioner_name}.",reschedule
+"Can I change my tutorial session time?",reschedule
+"I need to find another time for my {appointment_type} with {practitioner_name}.",reschedule
+"My {appointment_type} with {practitioner_name} needs to be rescheduled.",reschedule
+"Let's move my {appointment_type}.",reschedule
+"I need to reschedule with {practitioner_name}.",reschedule
+"Shift my {appointment_type} to another day.",reschedule
+"I can't attend the {appointment_type}.",reschedule
+"I must change my meeting with {practitioner_name}.",reschedule
+"I need to change my {appointment_type} with {practitioner_name}, ID is {appointment_id}.",reschedule
+"Reschedule my {appointment_type}, appointment ID {appointment_id}.",reschedule
+"Please move my {appointment_type} with {practitioner_name}, booking ref {appointment_id}.",reschedule
+"I need to change the time for my {appointment_type} with {practitioner_name} (ID: {appointment_id}).",reschedule
+"My appointment {appointment_id}, a {appointment_type} with {practitioner_name}, needs to be moved.",reschedule
+"Change booking {appointment_id}, my {appointment_type} with {practitioner_name}.",reschedule
+"I can't make my {appointment_type} (ID {appointment_id}) with {practitioner_name}.",reschedule
+"I would like to reschedule my {appointment_type} with {practitioner_name}. The ID is {appointment_id}.",reschedule
+"Can we move my {appointment_type} with {practitioner_name}? It's appointment {appointment_id}.",reschedule
+"Postpone my {appointment_type} with {practitioner_name}, reference {appointment_id}.",reschedule
+"Move my appointment.",reschedule
+"Change an appointment.",reschedule
+"Rebook an appointment.",reschedule
+"Find new time for {appointment_id}.",reschedule
+"Can I get a different time for my meeting with {practitioner_name}?",reschedule
+"I'm unable to attend my {appointment_type}.",reschedule
+"I need to reschedule something.",reschedule
+"That time no longer works for me.",reschedule
+"I have a scheduling conflict.",reschedule
+"I need to reschedule my booking {appointment_id}.",reschedule
+"Let's find an alternative time for my chat with {practitioner_name}.",reschedule
+"My plans have changed, can I move my {appointment_type}?",reschedule
+"Please cancel and rebook my appointment.",reschedule
+"Unfortunately, I need to move my meeting.",reschedule
+"Can we push my appointment {appointment_id} to the afternoon?",reschedule
+"I'd like to see {practitioner_name} at a different time.",reschedule
+"My {appointment_type} needs to be on a different day.",reschedule
+"Can we reschedule? I'm referring to appointment {appointment_id}.",reschedule
+"Something has come up and I need to change my meeting with {practitioner_name}.",reschedule
+"I am writing to reschedule my {appointment_type}.",reschedule
+"I have to move my {appointment_id} appointment.",reschedule
+"I'd like to request a new time for my meeting.",reschedule
+"Is it too late to change my appointment time?",reschedule
+"I need to reschedule my appointment, the ID is {appointment_id}.",reschedule
+"My meeting with {practitioner_name} has to be moved.",reschedule
+"Change my {appointment_type} time.",reschedule
+"Can we reschedule my {appointment_type}, ID {appointment_id}?",reschedule
+"I need to find another slot for my meeting with {practitioner_name}.",reschedule
+"I have an appointment, {appointment_id}, that I must reschedule.",reschedule
+"Please help me move my {appointment_type} with {practitioner_name}.",reschedule
+"Reschedule my one-on-one with {practitioner_name}.",reschedule
+"I need to move my advising session, which is appointment {appointment_id}.",reschedule
+"Change my appointment with {practitioner_name} on Wednesday.",reschedule
+"I can't make my project meeting (ID {appointment_id}).",reschedule
+"Could you find a new time for my {appointment_type}?",reschedule
+"I need to reschedule my chat with {practitioner_name}.",reschedule
+"Move booking {appointment_id} to next week.",reschedule
+"I'd like to change my {appointment_type} with {practitioner_name} to another day.",reschedule
+"I have appointment {appointment_id} with {practitioner_name} that needs rescheduling.",reschedule
+"Reschedule my consultation.",reschedule
+"I need to change the time of my defense rehearsal with {practitioner_name}.",reschedule
+"Move my {appointment_id} from Tuesday to Thursday.",reschedule
+"I must change my {appointment_type} appointment with {practitioner_name}.",reschedule
+"Let's move my meeting, ID {appointment_id}.",reschedule
+"I need to reschedule my session with {practitioner_name}.",reschedule
+"Rebook my {appointment_type}.",reschedule
+"Change {appointment_id}.",reschedule
+"I want to move my appointment with {practitioner_name}, ID {appointment_id}.",reschedule
+"Postpone my session with {practitioner_name}.",reschedule
+"My tutorial session (ID {appointment_id}) has a time conflict.",reschedule
+"Shift my meeting with {practitioner_name} to 3pm.",reschedule
+"I need to change the time of appointment {appointment_id}.",reschedule
+"Reschedule the {appointment_type} with {practitioner_name}, please.",reschedule
+"I'm afraid I have to move my meeting, ref {appointment_id}.",reschedule
+"Change of plans, I need to reschedule with {practitioner_name}.",reschedule
+"Can we find an alternative slot for {appointment_id}?",reschedule
+"I am unavailable for my {appointment_type} and need to move it.",reschedule
+"Reschedule my meeting with {practitioner_name} regarding my thesis.",reschedule
+"I would like to push my appointment {appointment_id} back by an hour.",reschedule
+"I have to reschedule my {appointment_type} with {practitioner_name} from tomorrow to next week.",reschedule

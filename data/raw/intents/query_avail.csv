@@ -1,0 +1,141 @@
+text,intent
+"Show available times.",query_avail
+"List open slots.",query_avail
+"Display calendar.",query_avail
+"Check for openings.",query_avail
+"Find free time slots.",query_avail
+"Appointment availability.",query_avail
+"Show schedule.",query_avail
+"List all available appointment times.",query_avail
+"Availability for this week.",query_avail
+"Openings for tomorrow.",query_avail
+"Free times next week.",query_avail
+"Check schedule availability.",query_avail
+"Display free times.",query_avail
+"Open appointment slots.",query_avail
+"Find available meeting times.",query_avail
+"List schedule openings.",query_avail
+"Availability check.",query_avail
+"Show openings for this Friday.",query_avail
+"Calendar for next month.",query_avail
+"What's free this afternoon.",query_avail
+"Availability on July 21st.",query_avail
+"Next available slot.",query_avail
+"List all openings.",query_avail
+"Show the booking calendar.",query_avail
+"Find an opening.",query_avail
+"Show {practitioner_name}'s availability.",query_avail
+"Check calendar for {practitioner_name}.",query_avail
+"List open slots for {practitioner_name}.",query_avail
+"Availability of {practitioner_name}.",query_avail
+"{practitioner_name}'s schedule.",query_avail
+"Professor {practitioner_name}'s free times.",query_avail
+"{practitioner_name}'s availability this week.",query_avail
+"Openings for {practitioner_name} tomorrow.",query_avail
+"Free times for {practitioner_name} next week.",query_avail
+"Check {practitioner_name}'s schedule for Friday.",query_avail
+"Display {practitioner_name}'s free times.",query_avail
+"{practitioner_name}'s open appointment slots.",query_avail
+"Find available meeting times with {practitioner_name}.",query_avail
+"List schedule openings for {practitioner_name}.",query_avail
+"{practitioner_name} availability check.",query_avail
+"Show {practitioner_name}'s openings for this Friday.",query_avail
+"{practitioner_name}'s calendar for next month.",query_avail
+"Free slots with {practitioner_name} this afternoon.",query_avail
+"Availability for {practitioner_name} on July 22nd.",query_avail
+"{practitioner_name}'s next available slot.",query_avail
+"List all openings for {practitioner_name}.",query_avail
+"Show the booking calendar for {practitioner_name}.",query_avail
+"Find an opening with {practitioner_name}.",query_avail
+"What are {practitioner_name}'s office hours.",query_avail
+"Display the schedule of {practitioner_name}.",query_avail
+"{practitioner_name}'s free times today.",query_avail
+"Availability of {practitioner_name} for a meeting.",query_avail
+"List all free times for {practitioner_name}.",query_avail
+"{practitioner_name}'s calendar.",query_avail
+"Openings with {practitioner_name}.",query_avail
+"Find {practitioner_name}'s availability.",query_avail
+"List times to meet with {practitioner_name}.",query_avail
+"When is {practitioner_name} free.",query_avail
+"Schedule for {practitioner_name}.",query_avail
+"Available times for a {appointment_type}.",query_avail
+"Open slots for a {appointment_type}.",query_avail
+"Display calendar for {appointment_type}s.",query_avail
+"Check for {appointment_type} openings.",query_avail
+"Find free time slots for a {appointment_type}.",query_avail
+"{appointment_type} availability.",query_avail
+"Show schedule for {appointment_type}s.",query_avail
+"List all available {appointment_type} times.",query_avail
+"Availability for {appointment_type}s this week.",query_avail
+"Openings for a {appointment_type} tomorrow.",query_avail
+"Free times for a {appointment_type} next week.",query_avail
+"Check schedule for {appointment_type} availability.",query_avail
+"Display free times for a {appointment_type}.",query_avail
+"Open {appointment_type} slots.",query_avail
+"Find available {appointment_type} times.",query_avail
+"List {appointment_type} openings.",query_avail
+"{appointment_type} availability check.",query_avail
+"Show openings for a {appointment_type} this Friday.",query_avail
+"Next available {appointment_type}.",query_avail
+"List all openings for a {appointment_type}.",query_avail
+"Show the booking calendar for {appointment_type}s.",query_avail
+"Find an opening for a {appointment_type}.",query_avail
+"Show {practitioner_name}'s availability for a {appointment_type}.",query_avail
+"Check {practitioner_name}'s calendar for a {appointment_type}.",query_avail
+"List open slots for a {appointment_type} with {practitioner_name}.",query_avail
+"Availability of {practitioner_name} for a {appointment_type}.",query_avail
+"{practitioner_name}'s schedule for a {appointment_type}.",query_avail
+"Free times for a {appointment_type} with Professor {practitioner_name}.",query_avail
+"{practitioner_name}'s availability for a {appointment_type} this week.",query_avail
+"Openings for a {appointment_type} with {practitioner_name} tomorrow.",query_avail
+"Free times for a {appointment_type} with {practitioner_name} next week.",query_avail
+"Check {practitioner_name}'s schedule for a {appointment_type} on Friday.",query_avail
+"Display {practitioner_name}'s free times for a {appointment_type}.",query_avail
+"{practitioner_name}'s open slots for a {appointment_type}.",query_avail
+"Find available {appointment_type} times with {practitioner_name}.",query_avail
+"List openings for a {appointment_type} with {practitioner_name}.",query_avail
+"{practitioner_name} {appointment_type} availability check.",query_avail
+"Show {practitioner_name}'s openings for a {appointment_type} this Friday.",query_avail
+"{practitioner_name}'s calendar for a {appointment_type} next month.",query_avail
+"Free slots with {practitioner_name} for a {appointment_type} this afternoon.",query_avail
+"Availability of {practitioner_name} for a {appointment_type} on July 23rd.",query_avail
+"{practitioner_name}'s next available {appointment_type}.",query_avail
+"List all openings for a {appointment_type} with {practitioner_name}.",query_avail
+"Show the booking calendar for a {appointment_type} with {practitioner_name}.",query_avail
+"Find an opening for a {appointment_type} with {practitioner_name}.",query_avail
+"Display the schedule of {practitioner_name} for a {appointment_type}.",query_avail
+"{practitioner_name}'s free times for a {appointment_type} today.",query_avail
+"Availability of {practitioner_name} for a {appointment_type}.",query_avail
+"List all free times for a {appointment_type} with {practitioner_name}.",query_avail
+"{practitioner_name}'s calendar for {appointment_type}s.",query_avail
+"Openings with {practitioner_name} for a {appointment_type}.",query_avail
+"Find {practitioner_name}'s availability for a {appointment_type}.",query_avail
+"List times for a {appointment_type} with {practitioner_name}.",query_avail
+"When is {practitioner_name} free for a {appointment_type}.",query_avail
+"Schedule for a {appointment_type} with {practitioner_name}.",query_avail
+"Check for open times.",query_avail
+"What is free.",query_avail
+"Times available to book.",query_avail
+"Advising session availability.",query_avail
+"Office hours with {practitioner_name}.",query_avail
+"Openings for a thesis discussion.",query_avail
+"Project meeting slots with {practitioner_name}.",query_avail
+"Show me free time.",query_avail
+"Find available slots.",query_avail
+"What times are available for {practitioner_name}.",query_avail
+"Availability for a lab session.",query_avail
+"{practitioner_name} meeting times.",query_avail
+"Show the free slots on the calendar.",query_avail
+"Check time slots.",query_avail
+"Availability inquiry for {practitioner_name}.",query_avail
+"Free time inquiry for a {appointment_type}.",query_avail
+"List the available times.",query_avail
+"{practitioner_name} free time check.",query_avail
+"Check openings for a {appointment_type} with {practitioner_name}.",query_avail
+"Display schedule for next week.",query_avail
+"Time slots for {practitioner_name}.",query_avail
+"Free slots.",query_avail
+"Openings in the calendar.",query_avail
+"Find availability for a consultation with {practitioner_name}.",query_avail
+"Check {practitioner_name}'s free time.",query_avail
+"Availability for an oral exam.",query_avail
