@@ -103,6 +103,55 @@ class NLUProcessor:
 
         return final_entities
 
+    def _fuse_practitioner_entities(self, all_entities, text):
+        """
+        Merges practitioner_name and PERSON entities by concatenating their
+        unique values to avoid simple repetition.
+        """
+        # Collect all fragments from both sources
+        practitioner_frags = [
+            e["value"]
+            for e in all_entities
+            if e["entity"] in ["practitioner_name", "PERSON"]
+        ]
+        other_entities = [
+            e
+            for e in all_entities
+            if e["entity"] not in ["practitioner_name", "PERSON"]
+        ]
+
+        if not practitioner_frags:
+            return other_entities
+
+        # Use dict.fromkeys to get unique fragments while preserving their order of appearance
+        unique_frags = list(dict.fromkeys(practitioner_frags))
+
+        # remove redundant substrings
+        cleaned_frags = []
+        for frag in unique_frags:
+            is_redundant = False
+            # Check if this fragment is a substring of any other, longer fragment
+            for other_frag in unique_frags:
+                if frag != other_frag and frag in other_frag:
+                    is_redundant = True
+                    break
+            if not is_redundant:
+                cleaned_frags.append(frag)
+
+        # Join the cleaned, meaningful parts
+        fused_name = " ".join(cleaned_frags)
+
+        final_entities = other_entities
+        final_entities.append(
+            {
+                "entity": "practitioner_name",
+                "value": fused_name,
+                "extractor": "multitask_model+spacy",  # Indicate it was a result of fusion
+            }
+        )
+
+        return final_entities
+
     def process(self, text: str) -> dict:
         """
         Processes text with all NLU components and merges the results.
@@ -122,7 +171,14 @@ class NLUProcessor:
         spacy_entities = self.spacy_extractor.extract_entities(text)
         time_entity = self.duckling_extractor.parse_time(text)
 
-        all_entities = custom_entities + spacy_entities
+        # First, combine all extracted entities (except time)
+        initial_entities = custom_entities + spacy_entities
+        # Then, fuse the practitioner name fragments
+        fused_entities = self._fuse_practitioner_entities(initial_entities, text)
+
+        # Add the time entity back in
+        all_entities = fused_entities
+
         if time_entity:
             all_entities.append(
                 {
@@ -154,12 +210,12 @@ if __name__ == "__main__":
     # Ensure Duckling container is running via `make up`
     nlu_processor = NLUProcessor(multitask_model_repo=repo_id)
 
-    test_text = "I would like to book a meeting with Prof.Esposito for tomorrow at 5pm?"
+    test_text = "I would like to book a meeting with Dr. Caruccio for tomorrow at 5pm?"
 
-    print(f"\\nProcessing text: '{test_text}'")
+    print(f"\nProcessing text: '{test_text}'")
     structured_data = nlu_processor.process(test_text)
 
     # Pretty-print the JSON output
-    print("\\n--- Unified NLU Output ---")
+    print("\n--- Unified NLU Output ---")
     print(json.dumps(structured_data, indent=2))
     print("--------------------------")
