@@ -4,6 +4,11 @@ FROM python:3.10-slim
 # Set the working directory in the container
 WORKDIR /app
 
+# Install system build dependencies required for llama-cpp-python
+# build-essential includes compilers like gcc and g++
+# cmake is also required by the build process
+RUN apt-get update && apt-get install -y build-essential cmake
+
 # Copy the requirements file into the container
 COPY requirements.txt .
 
