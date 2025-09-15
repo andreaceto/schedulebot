@@ -1,6 +1,6 @@
-# **ScheduleBOT+: An Intelligent Appointment Scheduling Chatbot**
+# **ScheduleBOT: An Intelligent Appointment Scheduling Chatbot**
 
-ScheduleBOT+ is a sophisticated, task-oriented chatbot designed for managing appointments. It leverages a modern, modular architecture to understand user requests, manage conversation context, and interact with a real calendar backend that enforces configurable business rules.
+ScheduleBOT is a sophisticated, task-oriented chatbot designed for managing appointments. It leverages a modern, modular architecture to understand user requests, manage conversation context, and interact with a real calendar backend that enforces configurable business rules.
 
 The project showcases a complete end-to-end development process, from custom dataset creation and advanced model training to building a fully functional and interactive application.
 
@@ -37,7 +37,7 @@ The chatbot is built on a modern, three-part pipeline architecture (**NLU -> DM 
 
 ```bash
 git clone <your-repo-url>
-cd schedulebot-plus
+cd schedulebot
 
 ```
 
